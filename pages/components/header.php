@@ -54,7 +54,3 @@
             </div>
         </titlebar>
         <contentarea>
-            asdfasdf
-        </contentarea>
-    </body>
-</html>
