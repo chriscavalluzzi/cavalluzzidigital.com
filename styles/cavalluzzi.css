@@ -1,0 +1,103 @@
+.font-regular {
+    font-family: liberation-sans,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.font-bold {
+    font-family: liberation-sans,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    background-color: rgba(0.0, 0.0, 0.0, 0.8);
+    color: white;
+}
+
+navbar {
+    display: block;
+    position: relative;
+    height: 100px;
+}
+
+.navrow {
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.navitem {
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.0);
+    transition: background-color 0.2s;
+}
+
+.navitem:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+}
+
+.navbookend {
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.navdivider {
+    border-left: 1px solid;
+    width: 1px;
+    height: 65%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.navspace {
+    flex-grow: 2;
+    flex-shrink: 2;
+}
+
+titlebar {
+    display: block;
+    width: 100%;
+}
+
+.titlebarheight {
+    height: 30em;
+}
+
+titlebar video {
+    width: 100%;
+    position: absolute;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.titlebarcontentbox {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    vertical-align: middle;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
+.centered {
+    margin: 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+contentarea {
+    display: block;
+    height: 3000px;
+}
