@@ -48,8 +48,8 @@
             </video>
             <titlebarcontentbox class="titlebarheight">
                 <div class="centered">
-                    <div class="font-bold" style="font-size: xxx-large;"><?php echo $titlebar_title_text; ?></div>
-                    <div style="font-size: x-large;"><?php echo $titlebar_subtitle_text; ?></div>
+                    <titlebar-title class="font-bold"><?php echo $titlebar_title_text; ?></titlebar-title>
+                    <titlebar-subtitle><?php echo $titlebar_subtitle_text; ?></titlebar-subtitle>
                 </div>
             </titlebarcontentbox>
         </titlebar>

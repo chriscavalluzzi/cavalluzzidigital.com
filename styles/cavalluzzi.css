@@ -1,11 +1,11 @@
 .font-regular {
-    font-family: liberation-sans,sans-serif;
+    font-family: nimbus-sans,sans-serif;
     font-weight: 400;
     font-style: normal;
 }
 
 .font-bold {
-    font-family: liberation-sans,sans-serif;
+    font-family: nimbus-sans,sans-serif;
     font-weight: 700;
     font-style: normal;
 }
@@ -89,6 +89,17 @@ titlebarcontentbox {
     text-align: center;
     vertical-align: middle;
     background: transparent;
+}
+
+titlebar-title {
+    display: block;
+    margin-bottom: 0.2em;
+    font-size: xxx-large;
+}
+
+titlebar-subtitle {
+    display: block;
+    font-size: x-large;
 }
 
 .centered {
