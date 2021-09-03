@@ -14,6 +14,7 @@
         <script src="/scripts/external/jquery-3.6.0.js"></script>
         <link rel="stylesheet" href="https://use.typekit.net/xvt0oki.css">
         <link rel="stylesheet" href="/styles/cavalluzzi.css">
+        <script src="/scripts/navbar.js"></script>
     </head>
     <body class="font-regular">
         <navbar>

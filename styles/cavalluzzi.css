@@ -113,4 +113,5 @@ titlebar-subtitle {
 
 contentarea {
     display: block;
+    height: 4000px; /* extra space to allow testing scroll functions */
 }
