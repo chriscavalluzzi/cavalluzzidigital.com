@@ -14,14 +14,18 @@ body {
     margin: 0;
     background-color: rgb(50,50,50);
     color: white;
-    background-image: radial-gradient(circle at center, rgb(37, 37, 37) 0%, rgb(8, 8, 8) 100%);
+    background-image: radial-gradient(circle at center, rgb(50, 50, 50) 0%, rgb(8, 8, 8) 100%);
     background-attachment: fixed;
 }
 
 navbar {
     display: block;
-    position: relative;
+    position: fixed;
     height: 100px;
+    z-index: 99;
+    width: 100%;
+    background-image: radial-gradient(circle at center, rgb(50, 50, 50) 0%, rgb(8, 8, 8) 100%);
+    background-attachment: fixed;
 }
 
 navrow {
@@ -67,6 +71,8 @@ navspace {
 }
 
 titlebar {
+    position: fixed;
+    top: 100px;
     display: block;
     width: 100%;
     background-color: black;

@@ -1,11 +1,13 @@
+const TITLEBAR_MIN = 10;
+const TITLEBAR_MAX = 30;
+const TITLEBAR_SPEED = 30;
+var setup = false;
+
 window.onscroll = function() {
     resizeTitlebar();
 };
 
 function resizeTitlebar() {
-    var h = Math.max(30 - (document.documentElement.scrollTop / 20),10);
-    var elems = document.getElementsByClassName('titlebarheight');
-    for(i = 0; i < elems.length; i++) {
-        elems[i].style.height = h.toString() + 'em';
-    }
+    var h = Math.max(TITLEBAR_MAX - (document.documentElement.scrollTop / TITLEBAR_SPEED),TITLEBAR_MIN);
+    $( ".titlebarheight" ).css('max-height', h.toString() + 'em');
 }

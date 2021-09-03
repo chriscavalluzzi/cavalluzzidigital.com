@@ -5,7 +5,7 @@
 <!--  https://www.linkedin.com/in/chris-cavalluzzi-52b8b466  -->
 <!--           https://github.com/chriscavalluzzi            -->
 
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8"/>
         <title>
