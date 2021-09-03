@@ -1,5 +1,2 @@
-<?php include 'components/header.php' ?>
-
-
-
-<?php include 'components/footer.php' ?>
+<?php include 'pages/components/header.php' ?>
+<?php include 'pages/components/footer.php' ?>
