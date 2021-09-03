@@ -17,40 +17,40 @@
     </head>
     <body class="font-regular">
         <navbar>
-            <div class="navrow">
-                <div class="navbookend"></div>
-                <a class="navitem font-bold" style="text-align: right;">
-                    <div class="centered">CHRIS CAVALLUZZI</div>
-                </a>
-                <div class="navdivider"></div>
-                <a class="navitem">
+            <navrow>
+                <navbookend></navbookend>
+                <navitem style="text-align: right;">
+                    <div class="centered font-bold">CHRIS CAVALLUZZI</div>
+                </navitem>
+                <navdivider></navdivider>
+                <navitem>
                     <div class="centered">FRONT-END DEVELOPMENT</div>
-                </a>
-                <a class="navitem">
+                </navitem>
+                <navitem>
                     <div class="centered">BACK-END DEVELOPMENT</div>
-                </a>
-                <a class="navitem">
+                </navitem>
+                <navitem>
                     <div class="centered">3D MODELING AND ANIMATION</div>
-                </a>
-                <a class="navitem">
+                </navitem>
+                <navitem>
                     <div class="centered">VIDEO EDITING</div>
-                </a>
-                <div class="navspace"></div>
-                <a class="navitem font-bold">
-                    <div class="centered">CONTACT</div>
-                </a>
-                <div class="navbookend"></div>
-            </div>
+                </navitem>
+                <navspace></navspace>
+                <navitem>
+                    <div class="centered font-bold">CONTACT</div>
+                </navitem>
+                <navbookend></navbookend>
+            </navrow>
         </navbar>
         <titlebar class="titlebarheight">
             <video autoplay muted loop class="titlebarvid titlebarheight">
                 <source src="/videos/test.mp4" type="video/mp4">
             </video>
-            <div class="titlebarcontentbox titlebarheight">
+            <titlebarcontentbox class="titlebarheight">
                 <div class="centered">
                     <div class="font-bold" style="font-size: xx-large;">THIS SITE WAS BUILT FROM SCRATCH</div>
                     <div style="font-size: x-large;">with PHP, HTML5, CSS, JavaScript, and jQuery</div>
                 </div>
-            </div>
+            </titlebarcontentbox>
         </titlebar>
         <contentarea>

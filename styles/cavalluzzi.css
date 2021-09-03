@@ -24,7 +24,7 @@ navbar {
     height: 100px;
 }
 
-.navrow {
+navrow {
     height: 100%;
     display: flex;
     flex-flow: row wrap;
@@ -33,7 +33,7 @@ navbar {
     align-items: center;
 }
 
-.navitem {
+navitem {
     text-align: left;
     padding-left: 20px;
     padding-right: 20px;
@@ -43,17 +43,17 @@ navbar {
     user-select: none;
 }
 
-.navitem:hover {
+navitem:hover {
     background-color: rgba(255, 255, 255, 0.2);
     cursor: pointer;
 }
 
-.navbookend {
+navbookend {
     flex-grow: 1;
     flex-shrink: 1;
 }
 
-.navdivider {
+navdivider {
     border-left: 1px solid;
     width: 1px;
     height: 65%;
@@ -61,7 +61,7 @@ navbar {
     margin-right: 20px;
 }
 
-.navspace {
+navspace {
     flex-grow: 2;
     flex-shrink: 2;
 }
@@ -83,7 +83,7 @@ titlebar video {
     opacity: 0.35;
 }
 
-.titlebarcontentbox {
+titlebarcontentbox {
     width: 100%;
     position: absolute;
     text-align: center;
