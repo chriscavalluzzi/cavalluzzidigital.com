@@ -32,7 +32,7 @@ navbar {
     background-attachment: fixed;
 }
 
-navrow {
+navbar-row {
     height: 100%;
     display: flex;
     flex-flow: row wrap;
@@ -41,7 +41,7 @@ navrow {
     align-items: center;
 }
 
-navitem {
+navbar-item {
     text-align: left;
     padding-left: 20px;
     padding-right: 20px;
@@ -51,17 +51,17 @@ navitem {
     user-select: none;
 }
 
-navitem:hover {
+navbar-item:hover {
     background-color: rgba(255, 255, 255, 0.2);
     cursor: pointer;
 }
 
-navbookend {
+navbar-bookend {
     flex-grow: 1;
     flex-shrink: 1;
 }
 
-navdivider {
+navbar-divider {
     border-left: 1px solid;
     width: 1px;
     height: 65%;
@@ -69,7 +69,7 @@ navdivider {
     margin-right: 20px;
 }
 
-navspace {
+navbar-space {
     flex-grow: 2;
     flex-shrink: 2;
 }

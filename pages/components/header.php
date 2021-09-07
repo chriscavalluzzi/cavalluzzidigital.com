@@ -19,30 +19,30 @@
     </head>
     <body class="font-regular">
         <navbar id="navbar">
-            <navrow>
-                <navbookend></navbookend>
-                <navitem style="text-align: right;">
+            <navbar-row>
+                <navbar-bookend></navbar-bookend>
+                <navbar-item style="text-align: right;">
                     <div class="centered font-bold">CHRIS CAVALLUZZI</div>
-                </navitem>
-                <navdivider></navdivider>
-                <navitem>
+                </navbar-item>
+                <navbar-divider></navbar-divider>
+                <navbar-item>
                     <div class="centered">FRONT-END DEVELOPMENT</div>
-                </navitem>
-                <navitem>
+                </navbar-item>
+                <navbar-item>
                     <div class="centered">BACK-END DEVELOPMENT</div>
-                </navitem>
-                <navitem>
+                </navbar-item>
+                <navbar-item>
                     <div class="centered">3D MODELING AND ANIMATION</div>
-                </navitem>
-                <navitem>
+                </navbar-item>
+                <navbar-item>
                     <div class="centered">VIDEO EDITING</div>
-                </navitem>
-                <navspace></navspace>
-                <navitem>
+                </navbar-item>
+                <navbar-space></navbar-space>
+                <navbar-item>
                     <div class="centered font-bold">CONTACT</div>
-                </navitem>
-                <navbookend></navbookend>
-            </navrow>
+                </navbar-item>
+                <navbar-bookend></navbar-bookend>
+            </navbar-row>
         </navbar>
         <videobar class="videobarheight" id="videobar-container">
             <video autoplay muted loop class="videobarvid videobarheight">
