@@ -74,7 +74,7 @@ navspace {
     flex-shrink: 2;
 }
 
-titlebar {
+videobar {
     position: fixed;
     top: 100px;
     display: block;
@@ -82,18 +82,18 @@ titlebar {
     background-color: black;
 }
 
-.titlebarheight {
+.videobarheight {
     height: 30em;
 }
 
-titlebar video {
+videobar video {
     width: 100%;
     position: absolute;
     object-fit: cover;
     opacity: 0.35;
 }
 
-titlebarcontentbox {
+videobarcontentbox {
     width: 100%;
     position: absolute;
     text-align: center;
@@ -101,13 +101,13 @@ titlebarcontentbox {
     background: transparent;
 }
 
-titlebar-title {
+videobar-title {
     display: block;
     margin-bottom: 0.2em;
     font-size: xxx-large;
 }
 
-titlebar-subtitle {
+videobar-subtitle {
     display: block;
     font-size: x-large;
 }

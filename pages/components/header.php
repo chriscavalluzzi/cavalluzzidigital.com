@@ -44,15 +44,15 @@
                 <navbookend></navbookend>
             </navrow>
         </navbar>
-        <titlebar class="titlebarheight" id="titlebar-container">
-            <video autoplay muted loop class="titlebarvid titlebarheight">
-                <source src="/videos/<?php echo $titlebar_video_file; ?>" type="video/mp4">
+        <videobar class="videobarheight" id="videobar-container">
+            <video autoplay muted loop class="videobarvid videobarheight">
+                <source src="/videos/<?php echo $videobar_video_file; ?>" type="video/mp4">
             </video>
-            <titlebarcontentbox class="titlebarheight">
+            <videobarcontentbox class="videobarheight">
                 <div class="centered">
-                    <titlebar-title class="font-bold"><?php echo $titlebar_title_text; ?></titlebar-title>
-                    <titlebar-subtitle><?php echo $titlebar_subtitle_text; ?></titlebar-subtitle>
+                    <videobar-title class="font-bold"><?php echo $videobar_title_text; ?></videobar-title>
+                    <videobar-subtitle><?php echo $videobar_subtitle_text; ?></videobar-subtitle>
                 </div>
-            </titlebarcontentbox>
-        </titlebar>
+            </videobarcontentbox>
+        </videobar>
         <contentarea>
