@@ -55,4 +55,5 @@
                 </div>
             </videobarcontentbox>
         </videobar>
-        <contentarea>
+        <body-container>
+            <body-content>

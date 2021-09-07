@@ -1,3 +1,4 @@
-        </contentarea>
+            <body-content>
+        <body-container>
     </body>
 </html>

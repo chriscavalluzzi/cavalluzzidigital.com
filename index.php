@@ -4,6 +4,7 @@
     $videobar_subtitle_text = "with PHP, HTML5, CSS, JavaScript, and jQuery";
     include 'pages/components/header.php';
 ?>
+test text
 <?php
     include 'pages/components/footer.php';
 ?>

@@ -80,10 +80,11 @@ videobar {
     display: block;
     width: 100%;
     background-color: black;
+    z-index: 99;
 }
 
 .videobarheight {
-    height: 30em;
+    height: 480px;
 }
 
 videobar video {
@@ -121,7 +122,16 @@ videobar-subtitle {
     transform: translate(-50%, -50%);
 }
 
-contentarea {
+body-container {
+    position: relative;
     display: block;
+    top: 580px;
+    padding-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
     height: 4000px; /* extra space to allow testing scroll functions */
+}
+
+body-content {
+    position: relative;
 }
