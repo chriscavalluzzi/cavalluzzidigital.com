@@ -18,7 +18,7 @@
         <script src="/scripts/navbar.js"></script>
     </head>
     <body class="font-regular">
-        <navbar>
+        <navbar id="navbar">
             <navrow>
                 <navbookend></navbookend>
                 <navitem style="text-align: right;">
@@ -44,7 +44,7 @@
                 <navbookend></navbookend>
             </navrow>
         </navbar>
-        <titlebar class="titlebarheight">
+        <titlebar class="titlebarheight" id="titlebar-container">
             <video autoplay muted loop class="titlebarvid titlebarheight">
                 <source src="/videos/<?php echo $titlebar_video_file; ?>" type="video/mp4">
             </video>
