@@ -2,7 +2,7 @@
     $videobar_video_file = "test.mp4";
     $videobar_title_text = "THIS SITE WAS BUILT FROM SCRATCH";
     $videobar_subtitle_text = "with PHP, HTML5, CSS, JavaScript, and jQuery";
-    include 'pages/components/header.php';
+    include 'components/header.php';
 ?>
                 <body-content-section class="content-gradient-blue-right">
                 </body-content-section>
@@ -11,5 +11,5 @@
                 <body-content-section>
                 </body-content-section>
 <?php
-    include 'pages/components/footer.php';
+    include 'components/footer.php';
 ?>
