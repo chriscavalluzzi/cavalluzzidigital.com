@@ -4,7 +4,12 @@
     $videobar_subtitle_text = "with PHP, HTML5, CSS, JavaScript, and jQuery";
     include 'pages/components/header.php';
 ?>
-test text
+                <body-content-section class="content-gradient-blue-right">
+                </body-content-section>
+                <body-content-section class="content-gradient-black-left">
+                </body-content-section>
+                <body-content-section>
+                </body-content-section>
 <?php
     include 'pages/components/footer.php';
 ?>

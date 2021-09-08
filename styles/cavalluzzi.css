@@ -12,14 +12,13 @@
 
 * {
     scroll-behavior: smooth;
+    box-sizing: border-box;
 }
 
 body {
     margin: 0;
     background-color: rgb(50,50,50);
     color: white;
-    background-image: radial-gradient(circle at center, rgb(50, 50, 50) 0%, rgb(8, 8, 8) 100%);
-    background-attachment: fixed;
 }
 
 navbar {
@@ -28,8 +27,7 @@ navbar {
     height: 100px;
     z-index: 99;
     width: 100%;
-    background-image: radial-gradient(circle at center, rgb(50, 50, 50) 0%, rgb(8, 8, 8) 100%);
-    background-attachment: fixed;
+    background-image: radial-gradient(ellipse at center bottom, rgb(15%,15%,15%) 0%, rgb(3%,3%,3%) 100%);
 }
 
 navbar-row {
@@ -126,12 +124,33 @@ body-container {
     position: relative;
     display: block;
     top: 580px;
-    padding-top: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    height: 4000px; /* extra space to allow testing scroll functions */
 }
 
 body-content {
-    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+body-content-section {
+    display: block;
+    width: 100%;
+    height: 500px;
+    padding: 20px;
+}
+
+.content-gradient-black-left {
+    background-image: linear-gradient(to left, rgb(3%,3%,3%) 0%, rgb(20%,20%,20%) 100%);
+}
+
+.content-gradient-black-right {
+    background-image: linear-gradient(to right, rgb(3%,3%,3%) 0%, rgb(20%,20%,20%) 100%);
+}
+
+.content-gradient-blue-left {
+    background-image: linear-gradient(to left, hsl(239, 50%, 5%) 0%, hsl(239, 50%, 20%) 100%);
+}
+
+.content-gradient-blue-right {
+    background-image: linear-gradient(to right, hsl(239, 50%, 5%) 0%, hsl(239, 50%, 20%) 100%);
 }
