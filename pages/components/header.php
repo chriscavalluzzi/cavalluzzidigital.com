@@ -51,8 +51,8 @@
             </video>
             <videobarcontentbox class="videobarheight">
                 <div class="centered">
-                    <videobar-title class="font-bold"><?php echo $videobar_title_text; ?></videobar-title>
-                    <videobar-subtitle><?php echo $videobar_subtitle_text; ?></videobar-subtitle>
+                    <videobar-title class="font-bold" id="videobar-title"><?php echo $videobar_title_text; ?></videobar-title>
+                    <videobar-subtitle id="videobar-subtitle"><?php echo $videobar_subtitle_text; ?></videobar-subtitle>
                 </div>
             </videobarcontentbox>
         </videobar>
