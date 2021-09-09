@@ -57,6 +57,11 @@ navbar-dynamicbreak::before {
     white-space: pre;
 }
 
+videobar-dynamicbreak::before {
+    content: "\A";
+    white-space: pre;
+}
+
 navbar-item:hover {
     background-color: rgba(255, 255, 255, 0.2);
     cursor: pointer;
@@ -87,8 +92,8 @@ videobar {
     width: 100%;
     background-color: black;
     z-index: 99;
-    --min-height: 56;
-    --max-height: 240;
+    --min-height: 72;
+    --max-height: 360;
 }
 
 .videobarheight {
@@ -115,7 +120,7 @@ videobar-title {
     display: block;
     margin-bottom: 0.2em;
     font-size: 36px;
-    --min-font-size: 18;
+    --min-font-size: 16;
     --max-font-size: 36;
 }
 
@@ -151,7 +156,7 @@ body-content-block {
     display: block;
     position: relative;
     width: 100%;
-    height: 500px;
+    height: 300px;
     color: hsl(0, 0%, 100%);
 }
 
@@ -210,12 +215,12 @@ body-content-text-container {
 }
 
 body-content-text-title {
-    font-size: 48px;
+    font-size: 32px;
     margin-bottom: 20px;
 }
 
 body-content-text-paragraph {
-    font-size: 24px;
+    font-size: 14px;
     margin-bottom: 12px;
 }
 
@@ -230,6 +235,14 @@ body-content-text-paragraph {
 @media only screen and (min-width: 481px) {
     body {
         font-size: 12px;
+    }
+
+    body-content-text-title {
+        font-size: 36px;
+    }
+
+    body-content-text-paragraph {
+        font-size: 16px;
     }
 }
 
@@ -263,6 +276,18 @@ body-content-text-paragraph {
     body {
         font-size: 14px;
     }
+
+    body-content-block {
+        height: 500px;
+    }
+
+    body-content-text-title {
+        font-size: 48px;
+    }
+
+    body-content-text-paragraph {
+        font-size: 24px;
+    }
 }
 
 /* Large PC screens */
@@ -294,6 +319,11 @@ body-content-text-paragraph {
     }
 
     navbar-dynamicbreak::before {
+        content: " ";
+        white-space: unset;
+    }
+
+    videobar-dynamicbreak::before {
         content: " ";
         white-space: unset;
     }

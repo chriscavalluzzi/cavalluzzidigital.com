@@ -1,6 +1,6 @@
 <?php
     $videobar_video_file = "test.mp4";
-    $videobar_title_text = "THIS SITE WAS BUILT FROM SCRATCH";
+    $videobar_title_text = "THIS SITE WAS<videobar-dynamicbreak></videobar-dynamicbreak>BUILT FROM SCRATCH";
     $videobar_subtitle_text = "with PHP, HTML5, CSS, JavaScript, and jQuery";
     include 'components/header.php';
 ?>
@@ -22,7 +22,7 @@
                             Mobile-Friendly, Responsive Design
                         </body-content-text-title>
                         <body-content-text-paragraph>
-                            Let's create seamless user experiences for any screen. Try this page out on your favorite mobile device!
+                            Let's create seamless user experiences for any screen. Try this page out on your favorite mobile device, or your browser's !
                         </body-content-text-paragraph>
                     </body-content-text-container>
                 </body-content-block>
