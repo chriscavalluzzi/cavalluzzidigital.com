@@ -34,3 +34,7 @@ function resizeVideobar() {
     $( "#navbar" ).css('max-height', navbar_height.toString() + 'px');
     $( "#videobar-container" ).css('top', navbar_height.toString() + 'px');
 }
+
+function navbarNavigate(page_name) {
+    window.location.href = "/" + page_name;
+}

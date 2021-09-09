@@ -22,24 +22,24 @@
         <navbar id="navbar">
             <navbar-row>
                 <navbar-bookend></navbar-bookend>
-                <navbar-item style="text-align: right;">
+                <navbar-item onclick="navbarNavigate('')" style="text-align: right;">
                     <div class="centered font-bold">CHRIS<navbar-dynamicbreak>CAVALLUZZI</div>
                 </navbar-item>
                 <navbar-divider></navbar-divider>
-                <navbar-item>
+                <navbar-item onclick="navbarNavigate('frontend')">
                     <div class="centered">FRONT-END<navbar-dynamicbreak>DEVELOPMENT</div>
                 </navbar-item>
-                <navbar-item>
+                <navbar-item onclick="navbarNavigate('')">
                     <div class="centered">BACK-END<navbar-dynamicbreak>DEVELOPMENT</div>
                 </navbar-item>
-                <navbar-item>
+                <navbar-item onclick="navbarNavigate('')">
                     <div class="centered">3D MODELING<navbar-dynamicbreak>AND ANIMATION</div>
                 </navbar-item>
-                <navbar-item>
+                <navbar-item onclick="navbarNavigate('')">
                     <div class="centered">VIDEO AND<navbar-dynamicbreak>PHOTO EDITING</div>
                 </navbar-item>
                 <navbar-space></navbar-space>
-                <navbar-item>
+                <navbar-item onclick="navbarNavigate('')">
                     <div class="centered font-bold">CONTACT</div>
                 </navbar-item>
                 <navbar-bookend></navbar-bookend>
