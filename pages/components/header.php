@@ -23,20 +23,20 @@
             <navbar-row>
                 <navbar-bookend></navbar-bookend>
                 <navbar-item style="text-align: right;">
-                    <div class="centered font-bold">CHRIS CAVALLUZZI</div>
+                    <div class="centered font-bold">CHRIS<navbar-dynamicbreak>CAVALLUZZI</div>
                 </navbar-item>
                 <navbar-divider></navbar-divider>
                 <navbar-item>
-                    <div class="centered">FRONT-END DEVELOPMENT</div>
+                    <div class="centered">FRONT-END<navbar-dynamicbreak>DEVELOPMENT</div>
                 </navbar-item>
                 <navbar-item>
-                    <div class="centered">BACK-END DEVELOPMENT</div>
+                    <div class="centered">BACK-END<navbar-dynamicbreak>DEVELOPMENT</div>
                 </navbar-item>
                 <navbar-item>
-                    <div class="centered">3D MODELING AND ANIMATION</div>
+                    <div class="centered">3D MODELING<navbar-dynamicbreak>AND ANIMATION</div>
                 </navbar-item>
                 <navbar-item>
-                    <div class="centered">VIDEO EDITING</div>
+                    <div class="centered">VIDEO AND<navbar-dynamicbreak>PHOTO EDITING</div>
                 </navbar-item>
                 <navbar-space></navbar-space>
                 <navbar-item>

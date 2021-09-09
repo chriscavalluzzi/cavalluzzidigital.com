@@ -19,7 +19,7 @@ body {
     margin: 0;
     background-color: rgb(3%,3%,3%);
     color: white;
-    font-size: 16px;
+    font-size: 12px;
 }
 
 navbar {
@@ -48,6 +48,11 @@ navbar-item {
     background-color: rgba(255, 255, 255, 0.0);
     transition: background-color 0.2s;
     user-select: none;
+}
+
+navbar-dynamicbreak::before {
+    content: "\A";
+    white-space: pre;
 }
 
 navbar-item:hover {
@@ -104,12 +109,12 @@ videobarcontentbox {
 videobar-title {
     display: block;
     margin-bottom: 0.2em;
-    font-size: 56px;
+    font-size: 36px;
 }
 
 videobar-subtitle {
     display: block;
-    font-size: 24px;
+    font-size: 18px;
 }
 
 .centered {
@@ -207,4 +212,46 @@ body-content-text-paragraph {
 
 .body-content-font-invert {
     color:hsl(0, 0%, 0%);
+}
+
+/* Default values above are for small mobile screens */
+/* Lowest-supported screen width: 320px */
+
+/* Large mobile screens */
+@media only screen and (min-width: 481px) {
+    body {
+        font-size: 12px;
+    }
+}
+
+/* Small PC screens */
+@media only screen and (min-width: 769px) {
+
+}
+
+/* Medium PC screens */
+@media only screen and (min-width: 1025px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+/* Large PC screens */
+@media only screen and (min-width: 1401px) {
+    body {
+        font-size: 16px;
+    }
+
+    videobar-title {
+        font-size: 56px;
+    }
+
+    videobar-subtitle {
+        font-size: 24px;
+    }
+
+    navbar-dynamicbreak::before {
+        content: " ";
+        white-space: unset;
+    }
 }
