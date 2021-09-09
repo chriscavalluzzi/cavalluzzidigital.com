@@ -90,7 +90,7 @@ videobar video {
     width: 100%;
     position: absolute;
     object-fit: cover;
-    opacity: 0.35;
+    opacity: 0.75;
 }
 
 videobarcontentbox {
@@ -142,11 +142,11 @@ body-content-block {
 }
 
 .content-gradient-black-left {
-    background-image: linear-gradient(to left, hsla(0, 0%, 20%, 50%) 0%, hsla(0, 0%, 20%, 100%) 50%);
+    background-image: linear-gradient(to left, hsla(0, 0%, 10%, 50%) 0%, hsla(0, 0%, 10%, 100%) 50%);
 }
 
 .content-gradient-black-right {
-    background-image: linear-gradient(to right, hsla(0, 0%, 20%, 50%) 0%, hsla(0, 0%, 20%, 100%) 50%);
+    background-image: linear-gradient(to right, hsla(0, 0%, 10%, 50%) 0%, hsla(0, 0%, 10%, 100%) 50%);
 }
 
 .content-gradient-blue-left {
