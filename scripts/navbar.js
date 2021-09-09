@@ -1,38 +1,33 @@
-const VIDEOBAR_HEIGHT_MIN = 100;
-const VIDEOBAR_HEIGHT_MAX = 480;
-const VIDEOBAR_TITLE_FONT_MIN = 24;
-const VIDEOBAR_TITLE_FONT_MAX = 56;
-const VIDEOBAR_SUBTITLE_FONT_MIN = 16;
-const VIDEOBAR_SUBTITLE_FONT_MAX = 24;
-const NAVBAR_MIN = 50;
-const NAVBAR_MAX = 100;
-const HEADER_SCROLL_SPEED = 300;
-
-
-
 window.onscroll = function() {
     resizeVideobar();
 };
 
+window.onresize = function() {
+    resizeVideobar();
+}
+
 function lerp(min_value,max_value,amount) {
-    return min_value + amount * (max_value - min_value);
+    return Number(min_value) + amount * (Number(max_value) - Number(min_value));
 }
 
 function resizeVideobar() {
-    var scroll_percent = Math.max(1 - (document.documentElement.scrollTop / 430),0);
+    var max_scroll_distance = (Number($( "navbar" ).css('--max-height')) - Number($( "navbar" ).css('--min-height'))) + (Number($( "videobar" ).css('--max-height')) - Number($( "videobar" ).css('--min-height')));
+    var scroll_percent = Math.max(1 - (document.documentElement.scrollTop / max_scroll_distance),0);
 
-    var videobar_height = lerp(VIDEOBAR_HEIGHT_MIN,VIDEOBAR_HEIGHT_MAX,scroll_percent);
+    var videobar_height = lerp($( "videobar" ).css('--min-height'),$( "videobar" ).css('--max-height'),scroll_percent);
     $( ".videobarheight" ).css('max-height', videobar_height.toString() + 'px');
 
-    var videobar_title_font_size = lerp(VIDEOBAR_TITLE_FONT_MIN,VIDEOBAR_TITLE_FONT_MAX,scroll_percent);
+    var videobar_title_font_size = lerp($( "videobar-title" ).css('--min-font-size'),$( "videobar-title" ).css('--max-font-size'),scroll_percent);
     $( "#videobar-title" ).css('font-size', videobar_title_font_size.toString() + 'px');
 
-    var videobar_subtitle_font_size = lerp(VIDEOBAR_SUBTITLE_FONT_MIN,VIDEOBAR_SUBTITLE_FONT_MAX,scroll_percent);
+    var videobar_subtitle_font_size = lerp($( "videobar-subtitle" ).css('--min-font-size'),$( "videobar-subtitle" ).css('--max-font-size'),scroll_percent);
     $( "#videobar-subtitle" ).css('font-size', videobar_subtitle_font_size.toString() + 'px');
 
-    var navbar_height = lerp(NAVBAR_MIN,NAVBAR_MAX,scroll_percent);
+    var navbar_height = lerp($( "navbar" ).css('--min-height'),$( "navbar" ).css('--max-height'),scroll_percent);
     $( "#navbar" ).css('max-height', navbar_height.toString() + 'px');
     $( "#videobar-container" ).css('top', navbar_height.toString() + 'px');
+
+    $( "body-container" ).css('top', (Number($( "navbar" ).css('--max-height')) + Number($( "videobar" ).css('--max-height'))).toString() + 'px')
 }
 
 function navbarNavigate(page_name) {
