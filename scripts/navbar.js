@@ -46,10 +46,12 @@ function navbarToggleMenu() {
 
 function navbarEnableMenu() {
     $( "navbar-dropdown" ).css("visibility","visible");
+    $( "navbar-dropdown" ).css("opacity","1.0");
     navbar_menu_enabled = true;
 }
 
 function navbarDisableMenu() {
     $( "navbar-dropdown" ).css("visibility","hidden");
+    $( "navbar-dropdown" ).css("opacity","0.0");
     navbar_menu_enabled = false;
 }

@@ -42,7 +42,7 @@
                             <centered-text-container>VIDEO AND<navbar-dynamicbreak></navbar-dynamicbreak>PHOTO EDITING</centered-text-container>
                         </navbar-item>
                         <navbar-item class="navbar-button navbar-dropdown-item" onclick="navbarNavigate('')">
-                            <centered-text-container class="font-bold">CONTACT</centered-text-container>
+                            <centered-text-container>CONTACT</centered-text-container>
                         </navbar-item>
                     </navbar-dropdown>
                 </navbar-item>
@@ -60,7 +60,7 @@
                 </navbar-item>
                 <navbar-space></navbar-space>
                 <navbar-item class="navbar-button navbar-item-float-opposite" onclick="navbarNavigate('')">
-                    <centered-text-container class="font-bold">CONTACT</centered-text-container>
+                    <centered-text-container>CONTACT</centered-text-container>
                 </navbar-item>
                 <navbar-bookend></navbar-bookend>
             </navbar-row>

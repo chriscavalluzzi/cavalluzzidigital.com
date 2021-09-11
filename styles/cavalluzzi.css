@@ -54,9 +54,11 @@ navbar-item {
     user-select: none;
 }
 
-.navbar-button:hover {
-    background-color: rgba(255, 255, 255, 0.2);
-    cursor: pointer;
+@media (hover: hover) {
+    .navbar-button:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+        cursor: pointer;
+    }
 }
 
 .navbar-title {
@@ -79,6 +81,8 @@ navbar-item {
 
 navbar-dropdown {
     visibility: hidden;
+    opacity: 0;
+    transition: visibility 0.2s, opacity 0.2s;
     display: block;
     position: absolute;
     top: 100%;
