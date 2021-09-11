@@ -147,12 +147,12 @@ videobar {
     width: 100%;
     background-color: black;
     z-index: 97;
-    --min-height: 72;
-    --max-height: 360;
+    --min-height: 64;
+    --max-height: 240;
 }
 
 .videobarheight {
-    height: 480px;
+    height: 240px;
 }
 
 videobar video {
@@ -174,16 +174,16 @@ videobarcontentbox {
 videobar-title {
     display: block;
     margin-bottom: 0.2em;
-    font-size: 36px;
-    --min-font-size: 16;
-    --max-font-size: 36;
+    font-size: 24px;
+    --min-font-size: 12;
+    --max-font-size: 24;
 }
 
 videobar-subtitle {
     display: block;
-    font-size: 18px;
-    --min-font-size: 12;
-    --max-font-size: 18;
+    font-size: 14px;
+    --min-font-size: 8;
+    --max-font-size: 14;
 }
 
 centered-text-container {
@@ -199,7 +199,7 @@ centered-text-container {
 body-container {
     position: relative;
     display: block;
-    top: 580px;
+    top: 340px; /* (navbar.max + videobar.max) */
 }
 
 body-content {
@@ -292,14 +292,6 @@ body-content-text-paragraph {
     body {
         font-size: 12px;
     }
-
-    body-content-text-title {
-        font-size: 36px;
-    }
-
-    body-content-text-paragraph {
-        font-size: 16px;
-    }
 }
 
 /* Small PC screens */
@@ -320,23 +312,6 @@ body-content-text-paragraph {
     .navbar-dropdown-button {
         display: none;
     }
-
-    videobar {
-        --min-height: 100;
-        --max-height: 480;
-    }
-
-    videobar-title {
-        font-size: 56px;
-        --min-font-size: 24;
-        --max-font-size: 56;
-    }
-
-    videobar-subtitle {
-        font-size: 24px;
-        --min-font-size: 16;
-        --max-font-size: 24;
-    }
 }
 
 /* Medium PC screens */
@@ -349,16 +324,41 @@ body-content-text-paragraph {
         padding: 0 20px;
     }
 
-    body-content-block {
-        height: 500px;
+    videobar {
+        --min-height: 72;
+        --max-height: 360;
+    }
+
+    .videobarheight {
+        height: 360px;
+    }
+
+    videobar-title {
+        font-size: 36px;
+        --min-font-size: 16;
+        --max-font-size: 36;
+    }
+
+    videobar-subtitle {
+        font-size: 18px;
+        --min-font-size: 12;
+        --max-font-size: 18;
+    }
+
+    body-container {
+        top: 460px;
     }
 
     body-content-text-title {
-        font-size: 48px;
+        font-size: 36px;
     }
 
     body-content-text-paragraph {
-        font-size: 24px;
+        font-size: 16px;
+    }
+
+    body-content-block {
+        height: 400px;
     }
 }
 
@@ -376,6 +376,10 @@ body-content-text-paragraph {
     videobar {
         --min-height: 100;
         --max-height: 480;
+    }
+
+    .videobarheight {
+        height: 480px;
     }
 
     videobar-title {
@@ -398,5 +402,21 @@ body-content-text-paragraph {
     videobar-dynamicbreak::before {
         content: " ";
         white-space: unset;
+    }
+
+    body-container {
+        top: 580px;
+    }
+
+    body-content-text-title {
+        font-size: 48px;
+    }
+
+    body-content-text-paragraph {
+        font-size: 24px;
+    }
+
+    body-content-block {
+        height: 500px;
     }
 }

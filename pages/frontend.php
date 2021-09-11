@@ -1,6 +1,6 @@
 <?php
     $videobar_video_file = "test.mp4";
-    $videobar_title_text = "THIS SITE WAS<videobar-dynamicbreak></videobar-dynamicbreak>BUILT FROM SCRATCH";
+    $videobar_title_text = "THIS SITE WAS BUILT FROM SCRATCH";
     $videobar_subtitle_text = "with PHP, HTML5, CSS, JavaScript, and jQuery";
     include 'components/header.php';
 ?>
