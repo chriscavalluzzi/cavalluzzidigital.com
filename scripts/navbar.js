@@ -1,3 +1,5 @@
+var navbar_menu_enabled = false;
+
 window.onscroll = function() {
     resizeVideobar();
 };
@@ -32,4 +34,22 @@ function resizeVideobar() {
 
 function navbarNavigate(page_name) {
     window.location.href = "/" + page_name;
+}
+
+function navbarToggleMenu() {
+    if (navbar_menu_enabled) {
+        navbarDisableMenu();
+    } else {
+        navbarEnableMenu();
+    }
+}
+
+function navbarEnableMenu() {
+    $( "navbar-dropdown" ).css("visibility","visible");
+    navbar_menu_enabled = true;
+}
+
+function navbarDisableMenu() {
+    $( "navbar-dropdown" ).css("visibility","hidden");
+    navbar_menu_enabled = false;
 }

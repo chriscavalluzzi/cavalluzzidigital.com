@@ -11,7 +11,7 @@
                             Clean, Human-Readable Code
                         </body-content-text-title>
                         <body-content-text-paragraph>
-                            I strive to write code that is easy to understand, maintain, and adapt to new requirements.
+                            I strive to write code that is simple, adaptable, and easy to comprehend.
                         </body-content-text-paragraph>
                     </body-content-text-container>
                 </body-content-block>
@@ -22,7 +22,7 @@
                             Mobile-Friendly, Responsive Design
                         </body-content-text-title>
                         <body-content-text-paragraph>
-                            Let's create seamless user experiences for any screen. Try this page out on your favorite mobile device, or your browser's !
+                            Let's create seamless user experiences for any screen. Try resizing this window or opening it on your favorite mobile device!
                         </body-content-text-paragraph>
                     </body-content-text-container>
                 </body-content-block>

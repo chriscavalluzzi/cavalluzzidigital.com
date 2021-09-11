@@ -22,25 +22,45 @@
         <navbar id="navbar">
             <navbar-row>
                 <navbar-bookend></navbar-bookend>
-                <navbar-item onclick="navbarNavigate('')" style="text-align: right;">
-                    <div class="centered font-bold">CHRIS<navbar-dynamicbreak>CAVALLUZZI</div>
+                <navbar-item class="navbar-title navbar-button" onclick="navbarNavigate('')">
+                    <centered-text-container class="font-bold">CHRIS<navbar-dynamicbreak></navbar-dynamicbreak>CAVALLUZZI</centered-text-container>
                 </navbar-item>
-                <navbar-divider></navbar-divider>
-                <navbar-item onclick="navbarNavigate('frontend')">
-                    <div class="centered">FRONT-END<navbar-dynamicbreak>DEVELOPMENT</div>
+                <navbar-item class="navbar-item-persistent"><navbar-divider></navbar-divider></navbar-item>
+                <navbar-item class="navbar-button navbar-dropdown-button" onclick="navbarToggleMenu()">
+                    <centered-text-container>MENU</centered-text-container>
+                    <navbar-dropdown>
+                        <navbar-item class="navbar-button navbar-dropdown-item" onclick="navbarNavigate('frontend')">
+                            <centered-text-container>FRONT-END<navbar-dynamicbreak></navbar-dynamicbreak>DEVELOPMENT</centered-text-container>
+                        </navbar-item>
+                        <navbar-item class="navbar-button navbar-dropdown-item" onclick="navbarNavigate('')">
+                            <centered-text-container>BACK-END<navbar-dynamicbreak></navbar-dynamicbreak>DEVELOPMENT</centered-text-container>
+                        </navbar-item>
+                        <navbar-item class="navbar-button navbar-dropdown-item" onclick="navbarNavigate('')">
+                            <centered-text-container>3D MODELING<navbar-dynamicbreak></navbar-dynamicbreak>AND ANIMATION</centered-text-container>
+                        </navbar-item>
+                        <navbar-item class="navbar-button navbar-dropdown-item" onclick="navbarNavigate('')">
+                            <centered-text-container>VIDEO AND<navbar-dynamicbreak></navbar-dynamicbreak>PHOTO EDITING</centered-text-container>
+                        </navbar-item>
+                        <navbar-item class="navbar-button navbar-dropdown-item" onclick="navbarNavigate('')">
+                            <centered-text-container class="font-bold">CONTACT</centered-text-container>
+                        </navbar-item>
+                    </navbar-dropdown>
                 </navbar-item>
-                <navbar-item onclick="navbarNavigate('')">
-                    <div class="centered">BACK-END<navbar-dynamicbreak>DEVELOPMENT</div>
+                <navbar-item class="navbar-button" onclick="navbarNavigate('frontend')">
+                    <centered-text-container>FRONT-END<navbar-dynamicbreak></navbar-dynamicbreak>DEVELOPMENT</centered-text-container>
                 </navbar-item>
-                <navbar-item onclick="navbarNavigate('')">
-                    <div class="centered">3D MODELING<navbar-dynamicbreak>AND ANIMATION</div>
+                <navbar-item class="navbar-button" onclick="navbarNavigate('')">
+                    <centered-text-container>BACK-END<navbar-dynamicbreak></navbar-dynamicbreak>DEVELOPMENT</centered-text-container>
                 </navbar-item>
-                <navbar-item onclick="navbarNavigate('')">
-                    <div class="centered">VIDEO AND<navbar-dynamicbreak>PHOTO EDITING</div>
+                <navbar-item class="navbar-button" onclick="navbarNavigate('')">
+                    <centered-text-container>3D MODELING<navbar-dynamicbreak></navbar-dynamicbreak>AND ANIMATION</centered-text-container>
+                </navbar-item>
+                <navbar-item class="navbar-button" onclick="navbarNavigate('')">
+                    <centered-text-container>VIDEO AND<navbar-dynamicbreak></navbar-dynamicbreak>PHOTO EDITING</centered-text-container>
                 </navbar-item>
                 <navbar-space></navbar-space>
-                <navbar-item onclick="navbarNavigate('')">
-                    <div class="centered font-bold">CONTACT</div>
+                <navbar-item class="navbar-button navbar-item-float-opposite" onclick="navbarNavigate('')">
+                    <centered-text-container class="font-bold">CONTACT</centered-text-container>
                 </navbar-item>
                 <navbar-bookend></navbar-bookend>
             </navbar-row>
@@ -50,10 +70,10 @@
                 <source src="/videos/<?php echo $videobar_video_file; ?>" type="video/mp4">
             </video>
             <videobarcontentbox class="videobarheight">
-                <div class="centered">
+                <centered-text-container>
                     <videobar-title class="font-bold" id="videobar-title"><?php echo $videobar_title_text; ?></videobar-title>
                     <videobar-subtitle id="videobar-subtitle"><?php echo $videobar_subtitle_text; ?></videobar-subtitle>
-                </div>
+                </centered-text-container>
             </videobarcontentbox>
         </videobar>
         <body-container>

@@ -26,8 +26,8 @@ navbar {
     display: block;
     position: fixed;
     height: 100px;
-    z-index: 99;
     width: 100%;
+    z-index: 98;
     background-image: radial-gradient(ellipse at center bottom, rgb(15%,15%,15%) 0%, rgb(3%,3%,3%) 100%);
     --min-height: 50;
     --max-height: 100;
@@ -35,21 +35,63 @@ navbar {
 
 navbar-row {
     height: 100%;
-    display: flex;
-    flex-flow: row wrap;
-    flex-wrap: nowrap;
+    width: 100%;
+    padding: 0 20px;
+    display: block;
+    /*flex-flow: row nowrap;
     justify-content: center;
-    align-items: center;
+    align-items: center;*/
 }
 
 navbar-item {
+    display: none;
+    float: left;
     text-align: left;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 0 16px;
     height: 100%;
     background-color: rgba(255, 255, 255, 0.0);
     transition: background-color 0.2s;
     user-select: none;
+}
+
+.navbar-button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+}
+
+.navbar-title {
+    display: block;
+    text-align: right;
+}
+
+.navbar-item-persistent {
+    display: block;
+}
+
+.navbar-item-float-opposite {
+    float: right;
+}
+
+.navbar-dropdown-button {
+    display: block;
+    position: relative;
+}
+
+navbar-dropdown {
+    visibility: hidden;
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    background-color: rgb(15%,15%,15%);
+    z-index: 99;
+}
+
+.navbar-dropdown-item {
+    display: block;
+    float: none;
+    height: 6em;
+    white-space: nowrap;
 }
 
 navbar-dynamicbreak::before {
@@ -62,22 +104,31 @@ videobar-dynamicbreak::before {
     white-space: pre;
 }
 
-navbar-item:hover {
-    background-color: rgba(255, 255, 255, 0.2);
-    cursor: pointer;
-}
-
 navbar-bookend {
+    display: none;
     flex-grow: 1;
     flex-shrink: 1;
 }
 
-navbar-divider {
-    border-left: 1px solid;
+navbar-divider-container {
+    display: block;
+    float: left;
+    height: 100%;
+    margin: 0 20px;
     width: 1px;
+}
+
+navbar-divider {
+    display: block;
+    position: relative;
+    width: 2px;
+    border-left: 1px solid;
     height: 65%;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 navbar-space {
@@ -91,7 +142,7 @@ videobar {
     display: block;
     width: 100%;
     background-color: black;
-    z-index: 99;
+    z-index: 97;
     --min-height: 72;
     --max-height: 360;
 }
@@ -131,7 +182,8 @@ videobar-subtitle {
     --max-font-size: 18;
 }
 
-.centered {
+centered-text-container {
+    display: block;
     margin: 0;
     position: relative;
     top: 50%;
@@ -253,6 +305,18 @@ body-content-text-paragraph {
         --max-height: 100;
     }
 
+    navbar-item {
+        display: block;
+    }
+
+    navbar-bookend {
+        display: block;
+    }
+
+    .navbar-dropdown-button {
+        display: none;
+    }
+
     videobar {
         --min-height: 100;
         --max-height: 480;
@@ -275,6 +339,10 @@ body-content-text-paragraph {
 @media only screen and (min-width: 1025px) {
     body {
         font-size: 14px;
+    }
+
+    navbar-item {
+        padding: 0 20px;
     }
 
     body-content-block {
