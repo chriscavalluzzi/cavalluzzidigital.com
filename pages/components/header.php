@@ -15,6 +15,7 @@
         </title>
         <script src="/scripts/external/jquery-3.6.0.js"></script>
         <link rel="stylesheet" href="https://use.typekit.net/xvt0oki.css">
+        <link rel="stylesheet" href="/styles/fontello.css">
         <link rel="stylesheet" href="/styles/cavalluzzi.css">
         <script src="/scripts/navbar.js"></script>
     </head>
@@ -32,16 +33,16 @@
                         <navbar-item class="navbar-button navbar-dropdown-item" onclick="navbarNavigate('frontend')">
                             <centered-text-container>FRONT-END<navbar-dynamicbreak></navbar-dynamicbreak>DEVELOPMENT</centered-text-container>
                         </navbar-item>
-                        <navbar-item class="navbar-button navbar-dropdown-item" onclick="navbarNavigate('')">
+                        <navbar-item class="navbar-button navbar-dropdown-item" onclick="navbarNavigate('backend')">
                             <centered-text-container>BACK-END<navbar-dynamicbreak></navbar-dynamicbreak>DEVELOPMENT</centered-text-container>
                         </navbar-item>
-                        <navbar-item class="navbar-button navbar-dropdown-item" onclick="navbarNavigate('')">
+                        <navbar-item class="navbar-button navbar-dropdown-item" onclick="navbarNavigate('3d')">
                             <centered-text-container>3D MODELING<navbar-dynamicbreak></navbar-dynamicbreak>AND ANIMATION</centered-text-container>
                         </navbar-item>
-                        <navbar-item class="navbar-button navbar-dropdown-item" onclick="navbarNavigate('')">
-                            <centered-text-container>VIDEO AND<navbar-dynamicbreak></navbar-dynamicbreak>PHOTO EDITING</centered-text-container>
+                        <navbar-item class="navbar-button navbar-dropdown-item" onclick="navbarNavigate('editing')">
+                            <centered-text-container>VIDEO AND<navbar-dynamicbreak></navbar-dynamicbreak>IMAGE EDITING</centered-text-container>
                         </navbar-item>
-                        <navbar-item class="navbar-button navbar-dropdown-item" onclick="navbarNavigate('')">
+                        <navbar-item class="navbar-button navbar-dropdown-item" onclick="navbarNavigate('contact')">
                             <centered-text-container>CONTACT</centered-text-container>
                         </navbar-item>
                     </navbar-dropdown>
@@ -49,17 +50,17 @@
                 <navbar-item class="navbar-button" onclick="navbarNavigate('frontend')">
                     <centered-text-container>FRONT-END<navbar-dynamicbreak></navbar-dynamicbreak>DEVELOPMENT</centered-text-container>
                 </navbar-item>
-                <navbar-item class="navbar-button" onclick="navbarNavigate('')">
+                <navbar-item class="navbar-button" onclick="navbarNavigate('backend')">
                     <centered-text-container>BACK-END<navbar-dynamicbreak></navbar-dynamicbreak>DEVELOPMENT</centered-text-container>
                 </navbar-item>
-                <navbar-item class="navbar-button" onclick="navbarNavigate('')">
+                <navbar-item class="navbar-button" onclick="navbarNavigate('3d')">
                     <centered-text-container>3D MODELING<navbar-dynamicbreak></navbar-dynamicbreak>AND ANIMATION</centered-text-container>
                 </navbar-item>
-                <navbar-item class="navbar-button" onclick="navbarNavigate('')">
-                    <centered-text-container>VIDEO AND<navbar-dynamicbreak></navbar-dynamicbreak>PHOTO EDITING</centered-text-container>
+                <navbar-item class="navbar-button" onclick="navbarNavigate('editing')">
+                    <centered-text-container>VIDEO AND<navbar-dynamicbreak></navbar-dynamicbreak>IMAGE EDITING</centered-text-container>
                 </navbar-item>
                 <navbar-space></navbar-space>
-                <navbar-item class="navbar-button navbar-item-float-opposite" onclick="navbarNavigate('')">
+                <navbar-item class="navbar-button navbar-item-float-opposite" onclick="navbarNavigate('contact')">
                     <centered-text-container>CONTACT</centered-text-container>
                 </navbar-item>
                 <navbar-bookend></navbar-bookend>

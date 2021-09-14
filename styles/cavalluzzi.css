@@ -212,7 +212,7 @@ body-content-block {
     display: block;
     position: relative;
     width: 100%;
-    height: 300px;
+    height: 350px;
     color: hsl(0, 0%, 100%);
 }
 
@@ -222,6 +222,14 @@ body-content-block {
 
 .content-gradient-black-right {
     background-image: linear-gradient(to right, hsla(0, 0%, 10%, 50%) 0%, hsla(0, 0%, 10%, 100%) 50%);
+}
+
+.content-gradient-grey-left {
+    background-image: linear-gradient(to left, hsla(0, 0%, 24%, 50%) 0%, hsla(0, 0%, 24%, 100%) 70%);
+}
+
+.content-gradient-grey-right {
+    background-image: linear-gradient(to right, hsla(0, 0%, 24%, 50%) 0%, hsla(0, 0%, 24%, 100%) 70%);
 }
 
 .content-gradient-blue-left {
@@ -244,8 +252,9 @@ body-content-image {
     position: absolute;
     height: 100%;
     width: 100%;
-    background-size: cover;
     z-index: 1;
+    background-size: cover;
+    background-position: 50% 50%;
 }
 
 body-content-text-container {
@@ -272,17 +281,47 @@ body-content-text-container {
 
 body-content-text-title {
     font-size: 32px;
-    margin-bottom: 20px;
+    margin-bottom: 0.5em;
 }
 
 body-content-text-paragraph {
     font-size: 14px;
-    margin-bottom: 12px;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
 }
 
 .body-content-font-invert {
     color:hsl(0, 0%, 0%);
 }
+
+body-content-button-group {
+    display: block;
+    margin-top: 1em;
+    white-space: nowrap;
+}
+
+.body-content-button-group-right {
+    margin-left: auto;
+}
+
+.body-content-button-group-left {
+    margin-right: auto;
+}
+
+body-content-button {
+    display: block;
+    border: 1px solid white;
+    border-radius: 100em;
+    margin-top: 1.1em;
+    padding: 1em;
+    padding-left: 1.6em;
+}
+
+body-content-button:hover {
+    background-color: hsla(0, 0%, 100%, 15%);
+    cursor: pointer;
+}
+
 
 /* Default values above are for small mobile screens */
 /* Lowest-supported screen width: 320px */
