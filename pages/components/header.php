@@ -28,7 +28,7 @@
                 </navbar-item>
                 <navbar-item class="navbar-item-persistent"><navbar-divider></navbar-divider></navbar-item>
                 <navbar-item class="navbar-button navbar-dropdown-button" onclick="navbarToggleMenu()">
-                    <centered-text-container>MENU</centered-text-container>
+                    <centered-text-container>MENU<span class="icon-angle-down" style="margin-left: 2px;"></span></centered-text-container>
                     <navbar-dropdown>
                         <navbar-item class="navbar-button navbar-dropdown-item" onclick="navbarNavigate('frontend')">
                             <centered-text-container>FRONT-END<navbar-dynamicbreak></navbar-dynamicbreak>DEVELOPMENT</centered-text-container>
