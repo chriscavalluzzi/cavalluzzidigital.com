@@ -38,9 +38,8 @@ navbar-row {
     width: 100%;
     padding: 0 20px;
     display: block;
-    /*flex-flow: row nowrap;
-    justify-content: center;
-    align-items: center;*/
+    position: relative;
+    z-index: 98;
 }
 
 navbar-item {
@@ -163,9 +162,11 @@ videobar video {
     opacity: 0.75;
 }
 
-videobarcontentbox {
-    width: 100%;
+videobar-contentbox {
     position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
     text-align: center;
     vertical-align: middle;
     background: transparent;
@@ -419,6 +420,10 @@ body-content-button:hover {
     }
 
     .videobarheight {
+        height: 480px;
+    }
+
+    videobar-contentbox {
         height: 480px;
     }
 

@@ -13,23 +13,20 @@ function lerp(min_value,max_value,amount) {
 }
 
 function resizeVideobar() {
-    var max_scroll_distance = (Number($( "navbar" ).css('--max-height')) - Number($( "navbar" ).css('--min-height'))) + (Number($( "videobar" ).css('--max-height')) - Number($( "videobar" ).css('--min-height')));
+    var max_scroll_distance = (Number($( "navbar" ).css('--max-height')) - Number($( "navbar" ).css('--min-height'))) + Number($( "videobar" ).css('--max-height'));
     var scroll_percent = Math.max(1 - (document.documentElement.scrollTop / max_scroll_distance),0);
 
-    var videobar_height = lerp($( "videobar" ).css('--min-height'),$( "videobar" ).css('--max-height'),scroll_percent);
-    $( ".videobarheight" ).css('max-height', videobar_height.toString() + 'px');
-
-    var videobar_title_font_size = lerp($( "videobar-title" ).css('--min-font-size'),$( "videobar-title" ).css('--max-font-size'),scroll_percent);
-    $( "#videobar-title" ).css('font-size', videobar_title_font_size.toString() + 'px');
-
-    var videobar_subtitle_font_size = lerp($( "videobar-subtitle" ).css('--min-font-size'),$( "videobar-subtitle" ).css('--max-font-size'),scroll_percent);
-    $( "#videobar-subtitle" ).css('font-size', videobar_subtitle_font_size.toString() + 'px');
-
+    // navbar
     var navbar_height = lerp($( "navbar" ).css('--min-height'),$( "navbar" ).css('--max-height'),scroll_percent);
     $( "#navbar" ).css('max-height', navbar_height.toString() + 'px');
-    $( "#videobar-container" ).css('top', navbar_height.toString() + 'px');
 
-    $( "body-container" ).css('top', (Number($( "navbar" ).css('--max-height')) + Number($( "videobar" ).css('--max-height'))).toString() + 'px')
+    // videobar
+    var videobar_height = lerp($( "navbar" ).css('--min-height'),$( "videobar" ).css('--max-height'),scroll_percent);
+    $( ".videobarheight" ).css('max-height', videobar_height.toString() + 'px');
+    var videobar_top = lerp(0,$( "navbar" ).css('--max-height'),scroll_percent);
+    $( "#videobar-container" ).css('top', videobar_top.toString() + 'px');
+    var videobar_content_opacity = lerp(-0.5,1,scroll_percent);
+    $( "videobar-contentbox" ).css('opacity', videobar_content_opacity.toString());
 }
 
 function navbarNavigate(page_name) {

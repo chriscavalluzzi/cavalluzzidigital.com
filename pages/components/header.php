@@ -65,17 +65,17 @@
                 </navbar-item>
                 <navbar-bookend></navbar-bookend>
             </navbar-row>
+            <videobar class="videobarheight" id="videobar-container">
+                <video autoplay muted loop class="videobarvid videobarheight">
+                    <source src="/videos/<?php echo $videobar_video_file; ?>" type="video/mp4">
+                </video>
+                <videobar-contentbox>
+                    <centered-text-container>
+                        <videobar-title class="font-bold" id="videobar-title"><?php echo $videobar_title_text; ?></videobar-title>
+                        <videobar-subtitle id="videobar-subtitle"><?php echo $videobar_subtitle_text; ?></videobar-subtitle>
+                    </centered-text-container>
+                </videobar-contentbox>
+            </videobar>
         </navbar>
-        <videobar class="videobarheight" id="videobar-container">
-            <video autoplay muted loop class="videobarvid videobarheight">
-                <source src="/videos/<?php echo $videobar_video_file; ?>" type="video/mp4">
-            </video>
-            <videobarcontentbox class="videobarheight">
-                <centered-text-container>
-                    <videobar-title class="font-bold" id="videobar-title"><?php echo $videobar_title_text; ?></videobar-title>
-                    <videobar-subtitle id="videobar-subtitle"><?php echo $videobar_subtitle_text; ?></videobar-subtitle>
-                </centered-text-container>
-            </videobarcontentbox>
-        </videobar>
         <body-container>
             <body-content>
