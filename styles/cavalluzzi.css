@@ -49,13 +49,13 @@ navbar-item {
     padding: 0 16px;
     height: 100%;
     background-color: rgba(255, 255, 255, 0.0);
-    transition: background-color 0.2s;
+    transition: background-color 0.15s;
     user-select: none;
 }
 
 @media (hover: hover) {
     .navbar-button:hover {
-        background-color: rgba(255, 255, 255, 0.2);
+        background-color: hsla(0, 0%, 25%, 0.66);
         cursor: pointer;
     }
 }
@@ -159,7 +159,7 @@ videobar video {
     width: 100%;
     position: absolute;
     object-fit: cover;
-    opacity: 0.75;
+    opacity: 0.5;
 }
 
 videobar-contentbox {
@@ -321,6 +321,7 @@ body-content-button {
 
 body-content-button:hover {
     background-color: hsla(0, 0%, 100%, 15%);
+    transition: background-color 0.15s;
     cursor: pointer;
 }
 

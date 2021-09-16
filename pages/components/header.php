@@ -2,7 +2,7 @@
 
 <!--               Welcome to the source code!               -->
 <!--         Feel free to look around, have a blast.         -->
-<!--  https://www.linkedin.com/in/chris-cavalluzzi-52b8b466  -->
+<!--      https://www.linkedin.com/in/chris-cavalluzzi       -->
 <!--           https://github.com/chriscavalluzzi            -->
 
 <html lang="en">

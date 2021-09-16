@@ -1,5 +1,5 @@
 <?php
-    $videobar_video_file = "test.mp4";
+    $videobar_video_file = "home_page.mp4";
     $videobar_title_text = "BRING YOUR WORLD TO LIFE";
     $videobar_subtitle_text = "";
     include 'components/header.php';

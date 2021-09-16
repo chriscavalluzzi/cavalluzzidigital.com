@@ -1,6 +1,6 @@
 <?php
-    $videobar_video_file = "test.mp4";
-    $videobar_title_text = "YOUR HANDYMAN FOR<videobar-dynamicbreak></videobar-dynamicbreak>THE DIGITAL WORLD";
+    $videobar_video_file = "home_page.mp4";
+    $videobar_title_text = "CREATING ALL THINGS DIGITAL";
     $videobar_subtitle_text = "";
     include 'components/header.php';
 ?>
@@ -43,7 +43,7 @@
                     <body-content-image style="background-image: url('/images/timeline.jpg'); background-position: 15% 50%;"></body-content-image>
                     <body-content-text-container class="body-content-text-container-right content-gradient-black-right">
                         <body-content-text-title>
-                            Creating powerful stories
+                            Telling powerful stories
                         </body-content-text-title>
                         <body-content-text-paragraph>
                             Everything from video editing to image editing, compositing to graphic design.

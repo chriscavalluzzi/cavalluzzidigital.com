@@ -1,11 +1,11 @@
 <?php
-    $videobar_video_file = "test.mp4";
+    $videobar_video_file = "home_page.mp4";
     $videobar_title_text = "THIS SITE WAS BUILT FROM SCRATCH";
     $videobar_subtitle_text = "with PHP, HTML5, CSS, JavaScript, and jQuery";
     include 'components/header.php';
 ?>
                 <body-content-block>
-                    <body-content-image style="background-image: url('/images/videobar.png');"></body-content-image>
+                    <body-content-image style="background-image: url('/images/videobar.png'); background-position: 5% 50%;"></body-content-image>
                     <body-content-text-container class="body-content-text-container-right content-gradient-blue-right">
                         <body-content-text-title>
                             Clean, Human-Readable Code
@@ -19,7 +19,7 @@
                     </body-content-text-container>
                 </body-content-block>
                 <body-content-block>
-                    <body-content-image style="background-image: url('/images/css_layout.png');"></body-content-image>
+                    <body-content-image style="background-image: url('/images/css_layout.png'); background-position: 100% 50%;"></body-content-image>
                     <body-content-text-container class="body-content-text-container-left content-gradient-black-left">
                         <body-content-text-title>
                             Mobile-Friendly, Responsive Design
