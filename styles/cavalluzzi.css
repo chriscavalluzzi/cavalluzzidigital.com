@@ -326,6 +326,19 @@ body-content-button:hover {
     cursor: pointer;
 }
 
+footer {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    padding: 30px;
+    color: hsl(0, 0%, 75%);
+    background-color: hsl(0, 0%, 10%);
+}
+
+footer-company-info {
+    display: block;
+    float: right;
+}
 
 /* Default values above are for small mobile screens */
 /* Lowest-supported screen width: 320px */
