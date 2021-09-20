@@ -1,7 +1,19 @@
 <?php
+    $page_title = "Front-End Development | Cavalluzzi Digital, LLC";
+    $page_description = "Sites and apps that are modern, fast, and beautiful.";
     $videobar_video_file = "home_page.mp4";
     $videobar_title_text = "THIS SITE WAS BUILT FROM SCRATCH";
     $videobar_subtitle_text = "with PHP, HTML5, CSS, JavaScript, and jQuery";
+    $structured_data = '
+            [{
+                "@context": "https://schema.org",
+                "@type": "BreadcrumbList",
+                "itemListElement": [{
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Front-End Development"
+                }]
+            }]';
     include 'components/header.php';
 ?>
                 <body-content-block>

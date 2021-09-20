@@ -9,8 +9,9 @@
     <head>
         <meta charset="utf-8"/>
         <meta name="robots" content="noindex">
+        <meta name="description" content="<?php echo($page_description); ?>">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Cavalluzzi Digital, LLC</title>
+        <title><?php echo($page_title); ?></title>
         <link rel="stylesheet" href="https://use.typekit.net/xvt0oki.css">
         <link rel="stylesheet" href="/styles/fontello.css">
         <link rel="stylesheet" href="/styles/cavalluzzi.css">
@@ -23,6 +24,15 @@
         <meta name="theme-color" content="#ffffff">
         <script src="/scripts/external/jquery-3.6.0.js"></script>
         <script src="/scripts/navbar.js"></script>
+        <?php
+            if ($structured_data) {
+                echo(
+                    '<script type="application/ld+json">'
+                    . $structured_data
+                    . '</script>'
+                );
+            }
+        ?>
     </head>
     <body class="font-regular">
         <navbar id="navbar">
@@ -72,12 +82,12 @@
             </navbar-row>
             <videobar class="videobarheight" id="videobar-container">
                 <video autoplay muted loop class="videobarvid videobarheight">
-                    <source src="/videos/<?php echo $videobar_video_file; ?>" type="video/mp4">
+                    <source src="/videos/<?php echo($videobar_video_file); ?>" type="video/mp4">
                 </video>
                 <videobar-contentbox>
                     <centered-text-container>
-                        <videobar-title class="font-bold" id="videobar-title"><?php echo $videobar_title_text; ?></videobar-title>
-                        <videobar-subtitle id="videobar-subtitle"><?php echo $videobar_subtitle_text; ?></videobar-subtitle>
+                        <videobar-title class="font-bold" id="videobar-title"><?php echo($videobar_title_text); ?></videobar-title>
+                        <videobar-subtitle id="videobar-subtitle"><?php echo($videobar_subtitle_text); ?></videobar-subtitle>
                     </centered-text-container>
                 </videobar-contentbox>
             </videobar>
