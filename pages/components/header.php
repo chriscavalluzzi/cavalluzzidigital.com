@@ -57,6 +57,9 @@
                         <navbar-item class="navbar-button navbar-dropdown-item" onclick="navbarNavigate('editing')">
                             <centered-text-container>VIDEO AND<navbar-dynamicbreak></navbar-dynamicbreak>IMAGE EDITING</centered-text-container>
                         </navbar-item>
+                        <navbar-item class="navbar-button navbar-dropdown-item" onclick="navbarNavigate('about')">
+                            <centered-text-container>MY STORY</centered-text-container>
+                        </navbar-item>
                         <navbar-item class="navbar-button navbar-dropdown-item" onclick="navbarNavigate('contact')">
                             <centered-text-container>CONTACT</centered-text-container>
                         </navbar-item>
@@ -73,6 +76,9 @@
                 </navbar-item>
                 <navbar-item class="navbar-button" onclick="navbarNavigate('editing')">
                     <centered-text-container>VIDEO AND<navbar-dynamicbreak></navbar-dynamicbreak>IMAGE EDITING</centered-text-container>
+                </navbar-item>
+                <navbar-item class="navbar-button" onclick="navbarNavigate('about')">
+                    <centered-text-container>MY<navbar-dynamicbreak></navbar-dynamicbreak>STORY</centered-text-container>
                 </navbar-item>
                 <navbar-space></navbar-space>
                 <navbar-item class="navbar-button navbar-item-float-opposite" onclick="navbarNavigate('contact')">
