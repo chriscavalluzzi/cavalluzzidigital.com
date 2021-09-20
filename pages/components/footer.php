@@ -4,7 +4,7 @@
                 <a href="https://www.linkedin.com/in/chris-cavalluzzi" target="_blank" rel="noopener noreferrer" class="footer-social-link social-link-linkedin"></a>
                 <footer-company-info>
                     Cavalluzzi Digital, LLC<br>
-                    contact@cavalluzzidigital.com
+                    <a href="mailto:contact@cavalluzzidigital.com">contact@cavalluzzidigital.com</a>
                 </footer-company-info>
             </footer>
         </body-container>
