@@ -331,13 +331,42 @@ footer {
     position: relative;
     width: 100%;
     padding: 30px;
-    color: hsl(0, 0%, 75%);
     background-color: hsl(0, 0%, 10%);
 }
 
-footer-company-info {
+/*footer-company-info-container {
     display: block;
+    position: relative;
     float: right;
+    height: 44px;
+    width: 100px;
+}*/
+
+footer-company-info {
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    margin-right: 30px;
+}
+
+.footer-social-link {
+    display: block;
+    float: left;
+    height: 21px;
+    width: 32px;
+    margin: 4px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.social-link-github {
+    background-image: url('/images/social/GitHub-Mark-Light-32px.png');
+}
+
+.social-link-linkedin {
+    background-image: url('/images/social/In-White-34@2x.png');
 }
 
 /* Default values above are for small mobile screens */
@@ -478,5 +507,10 @@ footer-company-info {
 
     body-content-block {
         height: 500px;
+    }
+
+    .footer-social-link {
+        height: 24px;
+        margin: 8px;
     }
 }
