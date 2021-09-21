@@ -123,12 +123,8 @@ navbar-bookend {
     flex-shrink: 1;
 }
 
-navbar-divider-container {
-    display: block;
-    float: left;
-    height: 100%;
-    margin: 0 20px;
-    width: 1px;
+.navbar-divider-container {
+    padding: 0 15px;
 }
 
 navbar-divider {
@@ -168,7 +164,7 @@ videobar video {
     width: 100%;
     position: absolute;
     object-fit: cover;
-    opacity: 0.5;
+    opacity: 0.4;
 }
 
 videobar-contentbox {
@@ -342,7 +338,7 @@ body-content-button {
 }
 
 body-content-button:hover {
-    background-color: hsla(0, 0%, 100%, 15%);
+    background-color: hsla(0, 0%, 50%, 25%);
     transition: background-color 0.15s;
     cursor: pointer;
 }
@@ -422,6 +418,10 @@ footer-company-info {
 
     navbar-item {
         padding: 0 24px;
+    }
+
+    .navbar-divider-container {
+        padding: 0 20px;
     }
 
     videobar {

@@ -41,7 +41,7 @@
                 <navbar-item class="navbar-title navbar-button" onclick="navbarNavigate('')">
                     <centered-text-container class="font-bold">CHRIS<navbar-dynamicbreak></navbar-dynamicbreak>CAVALLUZZI</centered-text-container>
                 </navbar-item>
-                <navbar-item class="navbar-item-persistent"><navbar-divider></navbar-divider></navbar-item>
+                <navbar-item class="navbar-item-persistent navbar-divider-container"><navbar-divider></navbar-divider></navbar-item>
                 <navbar-item class="navbar-button navbar-dropdown-button" onclick="navbarToggleMenu()">
                     <centered-text-container>MENU<span class="icon-angle-down" style="margin-left: 2px;"></span></centered-text-container>
                     <navbar-dropdown>
