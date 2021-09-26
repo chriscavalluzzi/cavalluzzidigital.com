@@ -86,8 +86,8 @@
                 </navbar-item>
                 <navbar-bookend></navbar-bookend>
             </navbar-row>
-            <videobar class="videobarheight" id="videobar-container">
-                <video autoplay muted loop class="videobarvid videobarheight">
+            <videobar class="videobar-height" id="videobar-container">
+                <video autoplay muted loop class="videobar-height">
                     <source src="/videos/<?php echo($videobar_video_file); ?>" type="video/mp4">
                 </video>
                 <videobar-contentbox>

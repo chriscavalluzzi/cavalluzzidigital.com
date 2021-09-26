@@ -156,7 +156,7 @@ videobar {
     --max-height: 240;
 }
 
-.videobarheight {
+.videobar-height {
     height: 240px;
 }
 
@@ -429,7 +429,7 @@ footer-company-info {
         --max-height: 360;
     }
 
-    .videobarheight {
+    .videobar-height {
         height: 360px;
     }
 
@@ -484,7 +484,7 @@ footer-company-info {
         --max-height: 480;
     }
 
-    .videobarheight {
+    .videobar-height {
         height: 480px;
     }
 

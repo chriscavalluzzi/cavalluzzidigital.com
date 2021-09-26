@@ -32,7 +32,7 @@ function resizeVideobar() {
         videobar_height = lerp($( "navbar" ).css('--min-height'),$( "videobar" ).css('--max-height'),videobar_scroll_percent);
     }
     $( "#videobar-container" ).css('top', videobar_top.toString() + 'px');
-    $( ".videobarheight" ).css('max-height', videobar_height.toString() + 'px');
+    $( ".videobar-height" ).css('max-height', videobar_height.toString() + 'px');
     var videobar_content_opacity = lerp(-1,1,videobar_scroll_percent);
     $( "videobar-contentbox" ).css('opacity', videobar_content_opacity.toString());
 }
