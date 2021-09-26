@@ -1,5 +1,13 @@
 <?php
 
+function homepage_title() {
+    return "Cavalluzzi Digital, LLC";
+}
+
+function subpage_title(string $page_name) {
+    return $page_name . " | " . homepage_title();
+}
+
 function content_block(
         string $img_path,
         int $bg_pos_x,

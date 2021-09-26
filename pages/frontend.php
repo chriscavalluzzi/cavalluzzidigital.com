@@ -1,5 +1,8 @@
 <?php
-    $page_title = "Front-End Development | Cavalluzzi Digital, LLC";
+
+    include 'components/utilities.php';
+
+    $page_title = subpage_title("Front-End Development");
     $page_description = "Sites and apps that are modern, fast, and beautiful.";
     $videobar_video_file = "home_page.mp4";
     $videobar_title_text = "THIS SITE WAS BUILT FROM SCRATCH";
