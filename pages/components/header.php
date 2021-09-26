@@ -24,15 +24,15 @@
         <meta name="theme-color" content="#ffffff">
         <script src="/scripts/external/jquery-3.6.0.js"></script>
         <script src="/scripts/navbar.js"></script>
-        <?php
-            if ($structured_data) {
-                echo(
-                    '<script type="application/ld+json">'
-                    . $structured_data
-                    . '</script>'
-                );
-            }
-        ?>
+<?php
+    if ($structured_data) {
+        echo <<<HEREDOC
+                <script type="application/ld+json">$structured_data
+                </script>
+        
+        HEREDOC;
+    }
+?>
     </head>
     <body class="font-regular">
         <navbar id="navbar">
