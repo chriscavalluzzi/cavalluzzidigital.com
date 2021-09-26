@@ -355,14 +355,42 @@ footer {
     background-color: hsl(0, 0%, 10%);
 }
 
-footer-company-info {
+footer-company-info-container {
     position: absolute;
+    height: 28px;
     top: 50%;
     right: 0%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     margin-right: 30px;
+    text-align: center;
+}
+
+footer-company-logo {
+    float: right;
+    position: relative;
+    top: 50%;
+    height: 28px;
+    width: 28px;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('/images/logos/CDL-Icon-Lines-White-38px.png');
+}
+
+footer-company-text {
+    display: inline-block;
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+    margin-right: 8px;
     text-align: right;
+}
+
+.footer-company-email-link {
+    color: hsl(0, 0%, 50%)
 }
 
 .footer-social-link {
@@ -464,6 +492,15 @@ footer-company-info {
     body-content-block {
         height: 400px;
     }
+
+    footer-company-info-container {
+        height: 34px;
+    }
+
+    footer-company-logo {
+        height: 34px;
+        width: 34px;
+    }
 }
 
 /* Large PC screens */
@@ -533,5 +570,14 @@ footer-company-info {
         height: 24px;
         width: 24px;
         margin: 12px;
+    }
+
+    footer-company-info-container {
+        height: 38px;
+    }
+
+    footer-company-logo {
+        height: 38px;
+        width: 38px;
     }
 }
