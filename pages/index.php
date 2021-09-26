@@ -2,6 +2,7 @@
 
     include 'components/utilities.php';
 
+    $page_uri = "";
     $page_title = homepage_title();
     $page_description = "Creating all things digital. Media, apps, and assets for all your digital needs.";
     $videobar_video_file = "home_page.mp4";

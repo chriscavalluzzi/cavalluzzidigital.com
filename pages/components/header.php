@@ -1,3 +1,13 @@
+<?php
+
+    function navbar_highlight(string $target_page_uri) {
+        global $page_uri;
+        if ($page_uri == $target_page_uri) {
+            echo(" navbar-item-current");
+        }
+    }
+
+?>
 <!DOCTYPE html>
 
 <!--               Welcome to the source code!               -->
@@ -45,43 +55,43 @@
                 <navbar-item class="navbar-button navbar-dropdown-button" onclick="navbarToggleMenu()">
                     <centered-text-container>MENU<span class="icon-angle-down" style="margin-left: 2px;"></span></centered-text-container>
                     <navbar-dropdown>
-                        <navbar-item class="navbar-button navbar-dropdown-item" onclick="navbarNavigate('frontend')">
+                        <navbar-item class="navbar-button navbar-dropdown-item<?php navbar_highlight('frontend'); ?>" onclick="navbarNavigate('frontend')">
                             <centered-text-container>FRONT-END<navbar-dynamicbreak></navbar-dynamicbreak>DEVELOPMENT</centered-text-container>
                         </navbar-item>
-                        <navbar-item class="navbar-button navbar-dropdown-item" onclick="navbarNavigate('backend')">
+                        <navbar-item class="navbar-button navbar-dropdown-item<?php navbar_highlight('backend'); ?>" onclick="navbarNavigate('backend')">
                             <centered-text-container>BACK-END<navbar-dynamicbreak></navbar-dynamicbreak>DEVELOPMENT</centered-text-container>
                         </navbar-item>
-                        <navbar-item class="navbar-button navbar-dropdown-item" onclick="navbarNavigate('3d')">
+                        <navbar-item class="navbar-button navbar-dropdown-item<?php navbar_highlight('3d'); ?>" onclick="navbarNavigate('3d')">
                             <centered-text-container>3D MODELING<navbar-dynamicbreak></navbar-dynamicbreak>AND ANIMATION</centered-text-container>
                         </navbar-item>
-                        <navbar-item class="navbar-button navbar-dropdown-item" onclick="navbarNavigate('editing')">
+                        <navbar-item class="navbar-button navbar-dropdown-item<?php navbar_highlight('editing'); ?>" onclick="navbarNavigate('editing')">
                             <centered-text-container>VIDEO AND<navbar-dynamicbreak></navbar-dynamicbreak>IMAGE EDITING</centered-text-container>
                         </navbar-item>
-                        <navbar-item class="navbar-button navbar-dropdown-item" onclick="navbarNavigate('about')">
+                        <navbar-item class="navbar-button navbar-dropdown-item<?php navbar_highlight('about'); ?>" onclick="navbarNavigate('about')">
                             <centered-text-container>MY STORY</centered-text-container>
                         </navbar-item>
-                        <navbar-item class="navbar-button navbar-dropdown-item" onclick="navbarNavigate('contact')">
+                        <navbar-item class="navbar-button navbar-dropdown-item<?php navbar_highlight('contact'); ?>" onclick="navbarNavigate('contact')">
                             <centered-text-container>CONTACT</centered-text-container>
                         </navbar-item>
                     </navbar-dropdown>
                 </navbar-item>
-                <navbar-item class="navbar-button" onclick="navbarNavigate('frontend')">
+                <navbar-item class="navbar-button<?php navbar_highlight('frontend'); ?>" onclick="navbarNavigate('frontend')">
                     <centered-text-container>FRONT-END<navbar-dynamicbreak></navbar-dynamicbreak>DEVELOPMENT</centered-text-container>
                 </navbar-item>
-                <navbar-item class="navbar-button" onclick="navbarNavigate('backend')">
+                <navbar-item class="navbar-button<?php navbar_highlight('backend'); ?>" onclick="navbarNavigate('backend')">
                     <centered-text-container>BACK-END<navbar-dynamicbreak></navbar-dynamicbreak>DEVELOPMENT</centered-text-container>
                 </navbar-item>
-                <navbar-item class="navbar-button" onclick="navbarNavigate('3d')">
+                <navbar-item class="navbar-button<?php navbar_highlight('3d'); ?>" onclick="navbarNavigate('3d')">
                     <centered-text-container>3D MODELING<navbar-dynamicbreak></navbar-dynamicbreak>AND ANIMATION</centered-text-container>
                 </navbar-item>
-                <navbar-item class="navbar-button" onclick="navbarNavigate('editing')">
+                <navbar-item class="navbar-button<?php navbar_highlight('editing'); ?>" onclick="navbarNavigate('editing')">
                     <centered-text-container>VIDEO AND<navbar-dynamicbreak></navbar-dynamicbreak>IMAGE EDITING</centered-text-container>
                 </navbar-item>
-                <navbar-item class="navbar-button" onclick="navbarNavigate('about')">
+                <navbar-item class="navbar-button<?php navbar_highlight('about'); ?>" onclick="navbarNavigate('about')">
                     <centered-text-container>MY<navbar-dynamicbreak></navbar-dynamicbreak>STORY</centered-text-container>
                 </navbar-item>
                 <navbar-space></navbar-space>
-                <navbar-item class="navbar-button navbar-item-float-opposite" onclick="navbarNavigate('contact')">
+                <navbar-item class="navbar-button navbar-item-float-opposite<?php navbar_highlight('contact'); ?>" onclick="navbarNavigate('contact')">
                     <centered-text-container>CONTACT</centered-text-container>
                 </navbar-item>
                 <navbar-bookend></navbar-bookend>

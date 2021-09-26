@@ -15,11 +15,12 @@ function content_block(
         string $text_classes,
         string $title,
         array $paragraphs,
-        string $button_group_class,
-        string $button_class,
-        array $buttons
+        ?string $button_group_class,
+        ?string $button_class,
+        ?array $buttons
     ) {
     
+    // paragraphs
     $paragraph_markup = '';
     for($i = 0; $i < count($paragraphs); $i++) {
         $paragraph_markup .= <<<HEREDOC
@@ -30,22 +31,28 @@ function content_block(
         HEREDOC;
     }
 
-    $button_markup = <<<HEREDOC
-        <body-content-button-group class="$button_group_class">
+    // buttons
+    $button_markup = '';
+    if (isset($buttons)) {
+        $button_markup = <<<HEREDOC
 
-    HEREDOC;
-    for($i = 0; $i < count($buttons); $i++) {
-        $button_markup .= <<<HEREDOC
-                                    <body-content-button onclick="navbarNavigate('{$buttons[$i][1]}')" class="$button_class">
-                                        {$buttons[$i][0]}<span class="icon-angle-right"></span>
-                                    </body-content-button>
+                                <body-content-button-group class="$button_group_class">
 
         HEREDOC;
+        for($i = 0; $i < count($buttons); $i++) {
+            $button_markup .= <<<HEREDOC
+                                        <body-content-button onclick="navbarNavigate('{$buttons[$i][1]}')" class="$button_class">
+                                            {$buttons[$i][0]}<span class="icon-angle-right"></span>
+                                        </body-content-button>
+
+            HEREDOC;
+        }
+        $button_markup .= <<<HEREDOC
+                                </body-content-button-group>
+        HEREDOC;
     }
-    $button_markup .= <<<HEREDOC
-                            </body-content-button-group>
-    HEREDOC;
     
+    // main
     echo <<<HEREDOC
 
                     <body-content-block>
@@ -53,11 +60,11 @@ function content_block(
                         <body-content-text-container class="$text_classes">
                             <body-content-text-title>
                                 $title
-                            </body-content-text-title>$paragraph_markup
-                        $button_markup
+                            </body-content-text-title>$paragraph_markup$button_markup
                         </body-content-text-container>
                     </body-content-block>
     HEREDOC;
+
 }
 
 ?>

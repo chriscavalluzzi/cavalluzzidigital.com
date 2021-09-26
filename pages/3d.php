@@ -1,20 +1,38 @@
 <?php
+
+    include 'components/utilities.php';
+
+    $page_uri = "3d";
+    $page_title = subpage_title("3D Modeling and Animation");
+    $page_description = "3D modeling, rigging, animation, and rendering for use in films, games, and more.";
     $videobar_video_file = "home_page.mp4";
     $videobar_title_text = "BRING YOUR WORLD TO LIFE";
     $videobar_subtitle_text = "";
+    $structured_data = '
+            [{
+                "@context": "https://schema.org",
+                "@type": "BreadcrumbList",
+                "itemListElement": [{
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "3D Modeling and Animation"
+                }]
+            }]';
+
     include 'components/header.php';
-?>
-                <body-content-block>
-                    <body-content-image style="background-image: url('/images/stoplight.jpg'); background-position: 75% 50%;"></body-content-image>
-                    <body-content-text-container class="body-content-text-container-left">
-                        <body-content-text-title>
-                            Any-Surface Modeling
-                        </body-content-text-title>
-                        <body-content-text-paragraph>
-                            Objects, environments, and characters for films, games, and more.
-                        </body-content-text-paragraph>
-                    </body-content-text-container>
-                </body-content-block>
-<?php
+
+    content_block(
+        '/images/stoplight.jpg',
+        75,
+        50,
+        "body-content-text-container-left",
+        "Any-Surface Modeling",
+        array("Objects, environments, and characters for films, games, and more."),
+        NULL,
+        NULL,
+        NULL
+    );
+
     include 'components/footer.php';
+
 ?>

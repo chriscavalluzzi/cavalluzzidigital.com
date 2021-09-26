@@ -88,6 +88,10 @@ navbar-item {
     padding-right: 8px;
 }
 
+.navbar-item-current {
+    background-color: hsla(0, 0%, 25%, 0.66);
+}
+
 navbar-dropdown {
     visibility: hidden;
     opacity: 0;
