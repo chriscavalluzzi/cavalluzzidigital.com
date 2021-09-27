@@ -378,7 +378,7 @@ footer-company-logo {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url('/images/logos/CDL-Icon-Lines-White-38px.png');
+    background-image: url('/images/logos/CDL-Icon-28px.png');
 }
 
 footer-company-text {
@@ -393,7 +393,7 @@ footer-company-text {
 }
 
 .footer-company-email-link {
-    color: hsl(0, 0%, 50%)
+    color: hsl(0, 0%, 66%)
 }
 
 .footer-social-link {
@@ -507,6 +507,7 @@ footer-company-text {
     footer-company-logo {
         height: 34px;
         width: 34px;
+        background-image: url('/images/logos/CDL-Icon-34px.png');
     }
 }
 
@@ -586,5 +587,6 @@ footer-company-text {
     footer-company-logo {
         height: 38px;
         width: 38px;
+        background-image: url('/images/logos/CDL-Icon-38px.png');
     }
 }
