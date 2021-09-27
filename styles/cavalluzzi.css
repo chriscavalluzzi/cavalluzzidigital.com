@@ -348,10 +348,10 @@ body-content-button:hover {
 }
 
 footer {
-    display: inline-block;
-    position: relative;
+    display: block;
+    height: 100px;
     width: 100%;
-    padding: 30px;
+    padding: 0 30px;
     background-color: hsl(0, 0%, 10%);
 }
 
@@ -367,8 +367,9 @@ footer-company-info-container {
 }
 
 footer-company-logo {
-    float: right;
+    display: block;
     position: relative;
+    float: right;
     top: 50%;
     height: 28px;
     width: 28px;
@@ -381,10 +382,12 @@ footer-company-logo {
 }
 
 footer-company-text {
-    display: inline-block;
+    display: block;
     position: relative;
+    float: right;
     top: 50%;
-    transform: translate(0, -50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
     margin-right: 8px;
     text-align: right;
 }
@@ -395,10 +398,14 @@ footer-company-text {
 
 .footer-social-link {
     display: block;
+    position: relative;
     float: left;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
     height: 21px;
     width: 21px;
-    margin: 8px;
+    margin: 0 8px;
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -569,7 +576,7 @@ footer-company-text {
     .footer-social-link {
         height: 24px;
         width: 24px;
-        margin: 12px;
+        margin: 0 12px;
     }
 
     footer-company-info-container {
