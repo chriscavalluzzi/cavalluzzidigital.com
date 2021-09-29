@@ -22,12 +22,36 @@
     include 'components/header.php';
 
     content_block(
-        '/images/stoplight.jpg',
-        75,
+        '/images/ruins.jpg',
+        30,
+        50,
+        "body-content-text-container-right body-content-font-invert content-gradient-white-right-mobileonly",
+        "Realism Redefined",
+        array("No detail overlooked, no corner unpolished."),
+        NULL,
+        NULL,
+        NULL
+    );
+
+    content_block(
+        '/images/torn.jpg',
+        81,
         50,
         "body-content-text-container-left",
-        "Any-Surface Modeling",
-        array("Objects, environments, and characters for films, games, and more."),
+        "All-Surface Modeling",
+        array("I specialize in creating assets of any kind: Organic, hard-surface, and everything in-between."),
+        NULL,
+        NULL,
+        NULL
+    );
+
+    content_block(
+        '/images/jack.jpg',
+        20,
+        50,
+        "body-content-text-container-right body-content-font-invert",
+        "Rigging Everything",
+        array("I can bring any model to life with unique, custom-tailored armatures."),
         NULL,
         NULL,
         NULL
