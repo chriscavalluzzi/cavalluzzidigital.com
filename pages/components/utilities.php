@@ -1,7 +1,7 @@
 <?php
 
 function homepage_title() {
-    return "Cavalluzzi Digital, LLC";
+    return "Chris Cavalluzzi";
 }
 
 function subpage_title(string $page_name) {

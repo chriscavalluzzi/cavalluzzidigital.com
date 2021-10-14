@@ -268,7 +268,7 @@ body-content-block {
 }
 
 .content-gradient-white-right-mobileonly {
-    background-image: linear-gradient(to right, hsla(0, 0%, 80%, 0%) 0%, hsla(0, 0%, 80%, 50%) 50%);
+    background-image: linear-gradient(to right, hsla(0, 0%, 80%, 0%) 15%, hsla(0, 0%, 80%, 90%) 66%);
 }
 
 body-content-image {
@@ -292,12 +292,12 @@ body-content-text-container {
 
 .body-content-text-container-left {
     padding-left: 5%;
-    padding-right: 25%;
+    padding-right: 36%;
     text-align: left;
 }
 
 .body-content-text-container-right {
-    padding-left: 25%;
+    padding-left: 36%;
     padding-right: 5%;
     text-align: right;
 }
