@@ -268,7 +268,7 @@ body-content-block {
 }
 
 .content-gradient-white-right-mobileonly {
-    background-image: linear-gradient(to right, hsla(0, 0%, 80%, 0%) 15%, hsla(0, 0%, 80%, 90%) 66%);
+    background-image: linear-gradient(to right, hsla(221, 3%, 89%, 0%) 30%, hsla(221, 3%, 89%, 70%) 50%);
 }
 
 body-content-image {
@@ -315,6 +315,11 @@ body-content-text-paragraph {
 
 .body-content-font-invert {
     color:hsl(0, 0%, 10%);
+}
+
+br-mobileonly::before {
+    content: "\A";
+    white-space: pre;
 }
 
 body-content-button-group {
@@ -430,6 +435,11 @@ footer-company-text {
 @media only screen and (min-width: 481px) {
     body {
         font-size: 12px;
+    }
+
+    br-mobileonly::before {
+        content: " ";
+        white-space: unset;
     }
 }
 

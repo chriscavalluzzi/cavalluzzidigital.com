@@ -23,11 +23,11 @@
 
     content_block(
         '/images/ruins.jpg',
-        25,
+        50,
         50,
         "body-content-text-container-right body-content-font-invert content-gradient-white-right-mobileonly",
         "Realism Redefined",
-        array('Rich environments with no detail overlooked, no corner unpolished.'),
+        array('No detail overlooked,<br-mobileonly></br-mobileonly>no corner unpolished.'),
         NULL,
         NULL,
         NULL
@@ -39,7 +39,7 @@
         50,
         "body-content-text-container-left",
         "All-Surface Modeling",
-        array("Creating assets of any kind: Organic, hard-surface, and everything in-between."),
+        array("Creating assets of any kind:<br-mobileonly></br-mobileonly>Organic, hard-surface,<br-mobileonly></br-mobileonly>and everything in-between."),
         NULL,
         NULL,
         NULL
@@ -51,7 +51,7 @@
         50,
         "body-content-text-container-right body-content-font-invert",
         "Custom-Tailored Armatures",
-        array("Breathing life into models with unique, powerful rigs."),
+        array("Breathing life into models<br-mobileonly></br-mobileonly>with unique, powerful rigs."),
         NULL,
         NULL,
         NULL
