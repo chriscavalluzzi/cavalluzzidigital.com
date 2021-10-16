@@ -38,7 +38,7 @@ navbar {
     width: 100%;
     z-index: 98;
     background-image: radial-gradient(ellipse at center bottom, rgb(15%,15%,15%) 0%, rgb(3%,3%,3%) 100%);
-    --min-height: 50;
+    --min-height: 55;
     --max-height: 100;
 }
 
@@ -446,7 +446,7 @@ footer-company-text {
 /* Small PC screens */
 @media only screen and (min-width: 820px) {
     navbar {
-        --min-height: 50;
+        --min-height: 65;
         --max-height: 100;
     }
 
