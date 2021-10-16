@@ -337,7 +337,7 @@ body-content-button-group {
 }
 
 body-content-button {
-    display: block;
+    display: inline-block;
     border: 1px solid white;
     border-radius: 100em;
     margin-top: 1.1em;

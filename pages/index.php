@@ -12,15 +12,15 @@
     include 'components/header.php';
 
     content_block(
-        '/images/frame_claim.jpg',
-        5,
+        '/images/javascript.jpg',
+        3,
         50,
         "body-content-text-container-right content-gradient-black-right",
         "Building stable and efficient apps",
         array("Writing code that is clean, stable, adaptable, and easy to understand."),
         "body-content-button-group-right",
         "",
-        array(array("Front-End Development","frontend"),array("Back-End Development","backend"))
+        array(array("Website Development","web"),array("Software Development","software"))
     );
 
     content_block(

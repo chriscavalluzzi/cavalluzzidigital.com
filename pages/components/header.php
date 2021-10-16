@@ -55,11 +55,11 @@
                 <navbar-item class="navbar-button navbar-dropdown-button" onclick="navbarToggleMenu()">
                     <centered-text-container>MENU<span class="icon-angle-down" style="margin-left: 2px;"></span></centered-text-container>
                     <navbar-dropdown>
-                        <navbar-item class="navbar-button navbar-dropdown-item<?php navbar_highlight('frontend'); ?>" onclick="navbarNavigate('frontend')">
-                            <centered-text-container>FRONT-END<navbar-dynamicbreak></navbar-dynamicbreak>DEVELOPMENT</centered-text-container>
+                        <navbar-item class="navbar-button navbar-dropdown-item<?php navbar_highlight('web'); ?>" onclick="navbarNavigate('web')">
+                            <centered-text-container>WEBSITE<navbar-dynamicbreak></navbar-dynamicbreak>DEVELOPMENT</centered-text-container>
                         </navbar-item>
-                        <navbar-item class="navbar-button navbar-dropdown-item<?php navbar_highlight('backend'); ?>" onclick="navbarNavigate('backend')">
-                            <centered-text-container>BACK-END<navbar-dynamicbreak></navbar-dynamicbreak>DEVELOPMENT</centered-text-container>
+                        <navbar-item class="navbar-button navbar-dropdown-item<?php navbar_highlight('software'); ?>" onclick="navbarNavigate('software')">
+                            <centered-text-container>SOFTWARE<navbar-dynamicbreak></navbar-dynamicbreak>DEVELOPMENT</centered-text-container>
                         </navbar-item>
                         <navbar-item class="navbar-button navbar-dropdown-item<?php navbar_highlight('3d'); ?>" onclick="navbarNavigate('3d')">
                             <centered-text-container>3D MODELING<navbar-dynamicbreak></navbar-dynamicbreak>AND ANIMATION</centered-text-container>
@@ -75,11 +75,11 @@
                         </navbar-item>
                     </navbar-dropdown>
                 </navbar-item>
-                <navbar-item class="navbar-button<?php navbar_highlight('frontend'); ?>" onclick="navbarNavigate('frontend')">
-                    <centered-text-container>FRONT-END<navbar-dynamicbreak></navbar-dynamicbreak>DEVELOPMENT</centered-text-container>
+                <navbar-item class="navbar-button<?php navbar_highlight('web'); ?>" onclick="navbarNavigate('web')">
+                    <centered-text-container>WEBSITE<navbar-dynamicbreak></navbar-dynamicbreak>DEVELOPMENT</centered-text-container>
                 </navbar-item>
-                <navbar-item class="navbar-button<?php navbar_highlight('backend'); ?>" onclick="navbarNavigate('backend')">
-                    <centered-text-container>BACK-END<navbar-dynamicbreak></navbar-dynamicbreak>DEVELOPMENT</centered-text-container>
+                <navbar-item class="navbar-button<?php navbar_highlight('software'); ?>" onclick="navbarNavigate('software')">
+                    <centered-text-container>SOFTWARE<navbar-dynamicbreak></navbar-dynamicbreak>DEVELOPMENT</centered-text-container>
                 </navbar-item>
                 <navbar-item class="navbar-button<?php navbar_highlight('3d'); ?>" onclick="navbarNavigate('3d')">
                     <centered-text-container>3D MODELING<navbar-dynamicbreak></navbar-dynamicbreak>AND ANIMATION</centered-text-container>

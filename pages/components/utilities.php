@@ -46,6 +46,12 @@ function content_block(
                                         </body-content-button>
 
             HEREDOC;
+            if($i != count($buttons) - 1) {
+                $button_markup .= <<<HEREDOC
+                                            <br>
+                
+                HEREDOC;
+            }
         }
         $button_markup .= <<<HEREDOC
                                 </body-content-button-group>
