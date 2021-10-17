@@ -2,8 +2,8 @@
 
     include 'components/utilities.php';
 
-    $page_uri = "backend";
-    $page_title = subpage_title("Back-End Development");
+    $page_uri = "software";
+    $page_title = subpage_title("Software Development");
     $page_description = "Data processing and RESTful APIs, done with stability and efficiency.";
     $videobar_video_file = "home_page.mp4";
     $videobar_title_text = "STABILITY AND EFFICIENCY";
@@ -21,7 +21,17 @@
 
     include 'components/header.php';
 
-
+    content_block(
+        '/images/videobar.png',
+        5,
+        50,
+        "body-content-text-container-right content-gradient-blue-right",
+        "Clean, Human-Readable Code",
+        array("I strive to write code that is simple, adaptable, and easy to comprehend."),
+        NULL,
+        NULL,
+        NULL
+    );
 
     include 'components/footer.php';
 
