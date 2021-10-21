@@ -264,7 +264,7 @@ body-content-block {
 }
 
 .content-gradient-white-right {
-    background-image: linear-gradient(to right, hsla(0, 0%, 80%, 0%) 0%, hsla(0, 0%, 80%, 100%) 50%);
+    background-image: linear-gradient(to right, hsla(0, 0%, 90%, 0%) 20%, hsla(0, 0%, 90%, 100%) 50%);
 }
 
 .content-gradient-white-right-mobileonly {

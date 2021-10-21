@@ -55,17 +55,17 @@
                 <navbar-item class="navbar-button navbar-dropdown-button" onclick="navbarToggleMenu()">
                     <centered-text-container>MENU<span class="icon-angle-down" style="margin-left: 2px;"></span></centered-text-container>
                     <navbar-dropdown>
-                        <navbar-item class="navbar-button navbar-dropdown-item<?php navbar_highlight('web'); ?>" onclick="navbarNavigate('web')">
-                            <centered-text-container>WEBSITE<navbar-dynamicbreak></navbar-dynamicbreak>DEVELOPMENT</centered-text-container>
-                        </navbar-item>
-                        <navbar-item class="navbar-button navbar-dropdown-item<?php navbar_highlight('software'); ?>" onclick="navbarNavigate('software')">
-                            <centered-text-container>SOFTWARE<navbar-dynamicbreak></navbar-dynamicbreak>DEVELOPMENT</centered-text-container>
-                        </navbar-item>
                         <navbar-item class="navbar-button navbar-dropdown-item<?php navbar_highlight('3d'); ?>" onclick="navbarNavigate('3d')">
                             <centered-text-container>3D MODELING<navbar-dynamicbreak></navbar-dynamicbreak>AND ANIMATION</centered-text-container>
                         </navbar-item>
                         <navbar-item class="navbar-button navbar-dropdown-item<?php navbar_highlight('editing'); ?>" onclick="navbarNavigate('editing')">
                             <centered-text-container>VIDEO AND<navbar-dynamicbreak></navbar-dynamicbreak>IMAGE EDITING</centered-text-container>
+                        </navbar-item>
+                        <navbar-item class="navbar-button navbar-dropdown-item<?php navbar_highlight('software'); ?>" onclick="navbarNavigate('software')">
+                            <centered-text-container>SOFTWARE<navbar-dynamicbreak></navbar-dynamicbreak>DEVELOPMENT</centered-text-container>
+                        </navbar-item>
+                        <navbar-item class="navbar-button navbar-dropdown-item<?php navbar_highlight('web'); ?>" onclick="navbarNavigate('web')">
+                            <centered-text-container>WEBSITE<navbar-dynamicbreak></navbar-dynamicbreak>DEVELOPMENT</centered-text-container>
                         </navbar-item>
                         <navbar-item class="navbar-button navbar-dropdown-item<?php navbar_highlight('about'); ?>" onclick="navbarNavigate('about')">
                             <centered-text-container>MY STORY</centered-text-container>
@@ -75,17 +75,17 @@
                         </navbar-item>
                     </navbar-dropdown>
                 </navbar-item>
-                <navbar-item class="navbar-button<?php navbar_highlight('web'); ?>" onclick="navbarNavigate('web')">
-                    <centered-text-container>WEBSITE<navbar-dynamicbreak></navbar-dynamicbreak>DEVELOPMENT</centered-text-container>
-                </navbar-item>
-                <navbar-item class="navbar-button<?php navbar_highlight('software'); ?>" onclick="navbarNavigate('software')">
-                    <centered-text-container>SOFTWARE<navbar-dynamicbreak></navbar-dynamicbreak>DEVELOPMENT</centered-text-container>
-                </navbar-item>
                 <navbar-item class="navbar-button<?php navbar_highlight('3d'); ?>" onclick="navbarNavigate('3d')">
                     <centered-text-container>3D MODELING<navbar-dynamicbreak></navbar-dynamicbreak>AND ANIMATION</centered-text-container>
                 </navbar-item>
                 <navbar-item class="navbar-button<?php navbar_highlight('editing'); ?>" onclick="navbarNavigate('editing')">
                     <centered-text-container>VIDEO AND<navbar-dynamicbreak></navbar-dynamicbreak>IMAGE EDITING</centered-text-container>
+                </navbar-item>
+                <navbar-item class="navbar-button<?php navbar_highlight('software'); ?>" onclick="navbarNavigate('software')">
+                    <centered-text-container>SOFTWARE<navbar-dynamicbreak></navbar-dynamicbreak>DEVELOPMENT</centered-text-container>
+                </navbar-item>
+                <navbar-item class="navbar-button<?php navbar_highlight('web'); ?>" onclick="navbarNavigate('web')">
+                    <centered-text-container>WEBSITE<navbar-dynamicbreak></navbar-dynamicbreak>DEVELOPMENT</centered-text-container>
                 </navbar-item>
                 <navbar-item class="navbar-button<?php navbar_highlight('about'); ?>" onclick="navbarNavigate('about')">
                     <centered-text-container>MY<navbar-dynamicbreak></navbar-dynamicbreak>STORY</centered-text-container>
