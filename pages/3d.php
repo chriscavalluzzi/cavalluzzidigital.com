@@ -25,7 +25,7 @@
         '/images/ruins.jpg',
         50,
         50,
-        "body-content-text-container-right body-content-font-invert content-gradient-white-right-mobileonly",
+        "body-content-text-container-right body-content-font-invert content-gradient-3d-ruins",
         "Realism Redefined",
         array('No detail overlooked,<br-mobileonly></br-mobileonly>no corner unpolished.'),
         NULL,

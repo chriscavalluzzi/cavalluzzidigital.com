@@ -25,7 +25,7 @@
         '/images/videobar.png',
         5,
         50,
-        "body-content-text-container-right content-gradient-blue-right",
+        "body-content-text-container-right content-gradient-software-videobar",
         "Clean, Human-Readable Code",
         array("I strive to write code that is simple, adaptable, and easy to comprehend."),
         NULL,

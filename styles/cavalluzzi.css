@@ -227,48 +227,36 @@ body-content-block {
     color: hsl(0, 0%, 100%);
 }
 
-.content-gradient-black-left {
+.content-gradient-home-timeline {
     background-image: linear-gradient(to left, hsla(0, 0%, 10%, 0%) 0%, hsla(0, 0%, 10%, 100%) 50%);
 }
 
-.content-gradient-black-right {
-    background-image: linear-gradient(to right, hsla(0, 0%, 10%, 0%) 0%, hsla(0, 0%, 10%, 100%) 50%);
-}
-
-.content-gradient-grey-left {
-    background-image: linear-gradient(to left, hsla(0, 0%, 24%, 0%) 0%, hsla(0, 0%, 24%, 100%) 70%);
-}
-
-.content-gradient-grey-right {
-    background-image: linear-gradient(to right, hsla(0, 0%, 24%, 0%) 0%, hsla(0, 0%, 24%, 100%) 70%);
-}
-
-.content-gradient-blue-left {
-    background-image: linear-gradient(to left, hsla(239, 30%, 20%, 0%) 0%, hsla(239, 30%, 20%, 100%) 50%);
-}
-
-.content-gradient-blue-right {
+.content-gradient-home-setshift {
     background-image: linear-gradient(to right, hsla(239, 30%, 20%, 0%) 0%, hsla(239, 30%, 20%, 100%) 50%);
 }
 
-.content-gradient-green-left {
-    background-image: linear-gradient(to left, hsla(125, 20%, 20%, 0%) 0%, hsla(125, 20%, 20%, 100%) 50%);
+.content-gradient-home-3dview {
+    background-image: linear-gradient(to left, hsla(0, 0%, 10%, 0%) 0%, hsla(0, 0%, 10%, 100%) 50%);
 }
 
-.content-gradient-green-right {
-    background-image: linear-gradient(to right, hsla(125, 30%, 20%, 0%) 0%, hsla(125, 30%, 20%, 100%) 50%);
+.content-gradient-home-maroonbells {
+    background-image: linear-gradient(to right, hsla(206, 86%, 86%, 0%) 20%, hsla(206, 86%, 86%, 100%) 70%);
 }
 
-.content-gradient-white-left {
-    background-image: linear-gradient(to left, hsla(0, 0%, 80%, 0%) 10%, hsla(0, 0%, 80%, 100%) 75%);
-}
-
-.content-gradient-white-right {
-    background-image: linear-gradient(to right, hsla(0, 0%, 90%, 0%) 20%, hsla(0, 0%, 90%, 100%) 50%);
-}
-
-.content-gradient-white-right-mobileonly {
+.content-gradient-3d-ruins {
     background-image: linear-gradient(to right, hsla(221, 3%, 89%, 0%) 30%, hsla(221, 3%, 89%, 70%) 50%);
+}
+
+.content-gradient-software-videobar {
+    background-image: linear-gradient(to right, hsla(239, 30%, 20%, 0%) 0%, hsla(239, 30%, 20%, 100%) 50%);
+}
+
+.content-gradient-web-videobar {
+    background-image: linear-gradient(to right, hsla(239, 30%, 20%, 0%) 0%, hsla(239, 30%, 20%, 100%) 50%);
+}
+
+.content-gradient-web-csslayout {
+    background-image: linear-gradient(to left, hsla(0, 0%, 10%, 0%) 0%, hsla(0, 0%, 10%, 100%) 50%);
 }
 
 body-content-image {
@@ -462,7 +450,7 @@ footer-company-text {
         display: none;
     }
 
-    .content-gradient-white-right-mobileonly {
+    .content-gradient-3d-ruins {
         background-image: unset;
     }
 }

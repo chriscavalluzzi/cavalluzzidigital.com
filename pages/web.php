@@ -25,7 +25,7 @@
         '/images/videobar.png',
         5,
         50,
-        "body-content-text-container-right content-gradient-blue-right",
+        "body-content-text-container-right content-gradient-web-videobar",
         "Clean, Human-Readable Code",
         array(
             "I strive to write code that is simple, adaptable, and easy to comprehend.",
@@ -40,7 +40,7 @@
         '/images/css_layout.png',
         100,
         50,
-        "body-content-text-container-left content-gradient-black-left",
+        "body-content-text-container-left content-gradient-web-csslayout",
         "Mobile-Friendly, Responsive Design",
         array(
             "Let's create seamless user experiences for any screen.",
