@@ -231,8 +231,8 @@ body-content-block {
     background-image: linear-gradient(to left, hsla(0, 0%, 10%, 0%) 0%, hsla(0, 0%, 10%, 100%) 50%);
 }
 
-.content-gradient-home-setshift {
-    background-image: linear-gradient(to right, hsla(239, 30%, 20%, 0%) 0%, hsla(239, 30%, 20%, 100%) 50%);
+.content-gradient-home-glog {
+    background-image: linear-gradient(to right, hsla(0, 0%, 10%, 0%) 0%, hsla(0, 0%, 10%, 100%) 50%);
 }
 
 .content-gradient-home-3dview {
@@ -245,6 +245,10 @@ body-content-block {
 
 .content-gradient-3d-ruins {
     background-image: linear-gradient(to right, hsla(221, 3%, 89%, 0%) 30%, hsla(221, 3%, 89%, 70%) 50%);
+}
+
+.content-gradient-3d-subdivisions {
+    background-image: linear-gradient(to left, hsla(0, 0%, 10%, 0%) 0%, hsla(0, 0%, 10%, 66%) 50%);
 }
 
 .content-gradient-software-videobar {

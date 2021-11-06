@@ -26,7 +26,7 @@
         50,
         50,
         "body-content-text-container-right body-content-font-invert content-gradient-3d-ruins",
-        "Realism Redefined",
+        "Realism redefined",
         array('No detail overlooked,<br-mobileonly></br-mobileonly>no corner unpolished.'),
         NULL,
         NULL,
@@ -38,7 +38,7 @@
         81,
         50,
         "body-content-text-container-left",
-        "All-Surface Modeling",
+        "All-surface modeling",
         array("Creating assets of any kind:<br-mobileonly></br-mobileonly>Organic, hard-surface,<br-mobileonly></br-mobileonly>and everything in-between."),
         NULL,
         NULL,
@@ -50,11 +50,23 @@
         20,
         50,
         "body-content-text-container-right body-content-font-invert",
-        "Custom-Tailored Armatures",
+        "Custom-tailored armatures",
         array("Breathing life into models<br-mobileonly></br-mobileonly>with unique, powerful rigs."),
         NULL,
         NULL,
         NULL
+    );
+
+    content_block(
+        '/images/subdivisions.jpg',
+        100,
+        50,
+        "body-content-text-container-left content-gradient-3d-subdivisions",
+        "Get started",
+        array("Let your imagination run wild, and let me create it."),
+        "body-content-button-group-left",
+        "",
+        array(array("Contact","contact"))
     );
 
     include 'components/footer.php';

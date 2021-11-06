@@ -36,10 +36,10 @@
     );
 
     content_block(
-        '/images/set_shift.jpg',
+        '/images/glog.jpg',
         3,
         50,
-        "body-content-text-container-right content-gradient-home-setshift",
+        "body-content-text-container-right content-gradient-home-glog",
         "Building stable and efficient apps",
         array("Writing code that is clean, stable, adaptable, and easy to understand."),
         "body-content-button-group-right",
