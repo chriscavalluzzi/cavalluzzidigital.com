@@ -74,6 +74,7 @@
                             <centered-text-container>CONTACT</centered-text-container>
                         </navbar-item>
                     </navbar-dropdown>
+                    <navbar-dropdown-cancel-overlay onclick="navbarDisableMenu(); stopOnclickPropagation(arguments[0]);"></navbar-dropdown-cancel-overlay>
                 </navbar-item>
                 <navbar-item class="navbar-button<?php navbar_highlight('3d'); ?>" onclick="navbarNavigate('3d')">
                     <centered-text-container>3D MODELING<navbar-dynamicbreak></navbar-dynamicbreak>AND ANIMATION</centered-text-container>

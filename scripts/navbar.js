@@ -43,11 +43,18 @@ function navbarToggleMenu() {
 function navbarEnableMenu() {
     $( "navbar-dropdown" ).css("visibility","visible");
     $( "navbar-dropdown" ).css("opacity","1.0");
+    $( "navbar-dropdown-cancel-overlay" ).css("visibility","visible");
     navbar_menu_enabled = true;
 }
 
 function navbarDisableMenu() {
     $( "navbar-dropdown" ).css("visibility","hidden");
     $( "navbar-dropdown" ).css("opacity","0.0");
+    $( "navbar-dropdown-cancel-overlay" ).css("visibility","hidden");
     navbar_menu_enabled = false;
+}
+
+function stopOnclickPropagation(e) {
+    var event = e /* W3C-compliant */ || window.event /* Legacy browsers */;
+    event.stopPropagation();
 }
