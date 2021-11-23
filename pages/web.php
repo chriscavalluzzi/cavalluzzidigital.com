@@ -26,9 +26,9 @@
         5,
         50,
         "body-content-text-container-right content-gradient-web-videobar",
-        "Clean, Human-Readable Code",
+        "Simple, intuitive code",
         array(
-            "I strive to write code that is simple, adaptable, and easy to comprehend.",
+            "Natural element names, preprocessing, and * make ",
             "Open the source code for any page on this site and see for yourself."
         ),
         NULL,
@@ -45,6 +45,21 @@
         array(
             "Let's create seamless user experiences for any screen.",
             "Try resizing this window or opening it on your favorite mobile device!"
+        ),
+        NULL,
+        NULL,
+        NULL
+    );
+
+    content_block(
+        '/images/videobar.png',
+        5,
+        50,
+        "body-content-text-container-right content-gradient-web-videobar",
+        "Maintenance made easy",
+        array(
+            "Maintenance made easy with natural element names, preprocessing, and *.",
+            "Open the source code for any page on this site and see for yourself."
         ),
         NULL,
         NULL,

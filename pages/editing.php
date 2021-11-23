@@ -74,8 +74,8 @@
         0,
         50,
         "body-content-text-container-right content-gradient-software-videobar",
-        "Get Started",
-        array("Whatever you provide, I can shape it into your vision."),
+        "Get started",
+        array("Anything you provide, I can shape into your vision."),
         "body-content-button-group-right",
         "",
         array(array("Contact","contact"))
