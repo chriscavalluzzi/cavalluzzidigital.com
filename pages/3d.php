@@ -22,7 +22,7 @@
     include 'components/header.php';
 
     content_block(
-        '/images/ruins.jpg',
+        '/images/banners/ruins.jpg',
         50,
         50,
         "body-content-text-container-right body-content-font-invert content-gradient-3d-ruins",
@@ -34,7 +34,7 @@
     );
 
     content_block(
-        '/images/torn.jpg',
+        '/images/banners/torn.jpg',
         81,
         50,
         "body-content-text-container-left",
@@ -46,7 +46,7 @@
     );
 
     content_block(
-        '/images/jack.jpg',
+        '/images/banners/jack.jpg',
         20,
         50,
         "body-content-text-container-right body-content-font-invert",
@@ -58,7 +58,7 @@
     );
 
     content_block(
-        '/images/subdivisions.jpg',
+        '/images/banners/subdivisions.jpg',
         100,
         50,
         "body-content-text-container-left content-gradient-3d-subdivisions",

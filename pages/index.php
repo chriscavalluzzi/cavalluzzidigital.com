@@ -12,7 +12,7 @@
     include 'components/header.php';
 
     content_block(
-        '/images/landscape.jpg',
+        '/images/banners/landscape.jpg',
         15,
         50,
         "body-content-text-container-right",
@@ -24,7 +24,7 @@
     );
 
     content_block(
-        '/images/timeline.jpg',
+        '/images/banners/timeline.jpg',
         95,
         50,
         "body-content-text-container-left content-gradient-home-timeline",
@@ -36,7 +36,7 @@
     );
 
     content_block(
-        '/images/glog.jpg',
+        '/images/banners/glog.jpg',
         3,
         50,
         "body-content-text-container-right content-gradient-home-glog",
@@ -48,7 +48,7 @@
     );
 
     content_block(
-        '/images/3d_view.jpg',
+        '/images/banners/3d_view.jpg',
         70,
         50,
         "body-content-text-container-left content-gradient-home-3dview",
@@ -60,7 +60,7 @@
     );
 
     content_block(
-        '/images/maroon_bells.jpg',
+        '/images/banners/maroon_bells.jpg',
         15,
         43,
         "body-content-text-container-right content-gradient-home-maroonbells body-content-font-invert",

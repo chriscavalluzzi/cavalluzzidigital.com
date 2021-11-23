@@ -22,7 +22,7 @@
     include 'components/header.php';
 
     content_block(
-        '/images/videobar.png',
+        '/images/banners/videobar.png',
         5,
         50,
         "body-content-text-container-right content-gradient-software-videobar",

@@ -22,7 +22,7 @@
     include 'components/header.php';
 
     content_block(
-        '/images/videobar.png',
+        '/images/banners/videobar.png',
         5,
         50,
         "body-content-text-container-right content-gradient-web-videobar",
@@ -37,7 +37,7 @@
     );
 
     content_block(
-        '/images/css_layout.png',
+        '/images/banners/css_layout.png',
         100,
         50,
         "body-content-text-container-left content-gradient-web-csslayout",
@@ -52,7 +52,7 @@
     );
 
     content_block(
-        '/images/videobar.png',
+        '/images/banners/videobar.png',
         5,
         50,
         "body-content-text-container-right content-gradient-web-videobar",
