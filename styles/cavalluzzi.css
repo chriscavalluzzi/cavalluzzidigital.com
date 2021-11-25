@@ -359,6 +359,61 @@ body-content-button:hover {
     cursor: pointer;
 }
 
+contact-form-container {
+    display: block;
+    font-size: 14px;
+}
+
+contact-form-container form {
+    max-width: min(90%, 1000px);
+    margin: auto;
+}
+
+contact-form-container table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 1em;
+}
+
+contact-form-container tr {
+    width: 50%;
+}
+
+contact-form-container td {
+    float: left;
+    width: 100%;
+}
+
+contact-form-container td.contact-form-label-container {
+    text-align: left;
+    padding-right: 1em;
+    white-space: nowrap;
+    vertical-align: center;
+    margin-bottom: 0.2em;
+}
+
+contact-form-container td.contact-form-input-container {
+    width: 100%;
+}
+
+contact-form-container input.full-size {
+    width: 100%;
+}
+
+contact-form-container input {
+    padding: 0em 0.5em;
+    line-height: 2em;
+}
+
+contact-form-container textarea {
+    width: 100%;
+    height: 10em;
+}
+
+contact-form-container input[type="submit"] {
+    margin: 0.5em 0 2em 0;
+}
+
 footer {
     display: block;
     height: 100px;
@@ -521,6 +576,19 @@ footer-company-text {
         height: 400px;
     }
 
+    contact-form-container {
+        font-size: 16px;
+    }
+
+    contact-form-container td {
+        float: unset;
+        width: unset;
+    }
+
+    contact-form-container td.contact-form-label-container {
+        text-align: right;
+    }
+
     footer-company-info-container {
         height: 34px;
     }
@@ -588,6 +656,10 @@ footer-company-text {
 
     body-content-block {
         height: 500px;
+    }
+
+    contact-form-container {
+        font-size: 24px;
     }
 
     .footer-social-link {
