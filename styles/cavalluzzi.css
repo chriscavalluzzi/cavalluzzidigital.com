@@ -403,15 +403,33 @@ contact-form-container input.full-size {
 contact-form-container input {
     padding: 0em 0.5em;
     line-height: 2em;
+    color: white;
+    background-color: transparent;
+    border: 1px solid hsl(0, 0%, 60%);
+    border-radius: 0.3em;
+    font-size: 80%;
 }
 
 contact-form-container textarea {
     width: 100%;
-    height: 10em;
+    height: 15em;
+    color: white;
+    background-color: transparent;
+    border: 1px solid hsl(0, 0%, 60%);
+    border-radius: 0.3em;
+    resize: none;
+    font-size: 80%;
+    font-family: inherit;
 }
 
-contact-form-container input[type="submit"] {
+.contact-form-submit {
     margin: 0.5em 0 2em 0;
+    padding: 0.25em 0.7em 0.15em 0.7em;
+}
+
+.contact-form-submit:hover {
+    background-color: hsla(0, 0%, 100%, 0.1);
+    cursor: pointer;
 }
 
 footer {

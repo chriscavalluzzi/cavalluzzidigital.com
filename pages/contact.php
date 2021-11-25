@@ -85,8 +85,13 @@
                         <textarea name="message" id="message" required="true" class="full-size"></textarea>
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                    </td>
+                    <td>
+                        <input type="submit" value="Submit" class="contact-form-submit">
+                    </td>
             </table>
-            <input type="submit" value="Submit">
         </form>
     </contact-form-container>
 
