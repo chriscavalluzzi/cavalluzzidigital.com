@@ -52,7 +52,7 @@
         70,
         50,
         "body-content-text-container-left content-gradient-home-3dview",
-        "Websites for the modern world",
+        "Custom websites for the modern world",
         array("Responsive and clean experiences for all devices."),
         "body-content-button-group-left",
         "",
