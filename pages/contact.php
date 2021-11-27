@@ -7,7 +7,7 @@
     $page_description = "";
     $videobar_video_file = "";
     $videobar_title_text = "OUR JOURNEY STARTS HERE";
-    $videobar_subtitle_text = "";
+    $videobar_subtitle_text = "We respond quickly, within 24 hours at the latest.<br>If your job needs to be completed quickly, please include as much information as possible in your initial message.";
     $structured_data = '
             [{
                 "@context": "https://schema.org",
