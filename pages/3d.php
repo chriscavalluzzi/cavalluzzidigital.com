@@ -5,6 +5,7 @@
     $page_uri = "3d";
     $page_title = subpage_title("3D Modeling and Animation");
     $page_description = "3D modeling, rigging, animation, and rendering for use in films, games, and more.";
+    $videobar_enabled = TRUE;
     $videobar_video_file = "3d.mp4";
     $videobar_title_text = "BRING YOUR WORLD TO LIFE";
     $videobar_subtitle_text = "";

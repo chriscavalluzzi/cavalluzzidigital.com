@@ -97,17 +97,29 @@
                 </navbar-item>
                 <navbar-bookend></navbar-bookend>
             </navbar-row>
-            <videobar class="videobar-height" id="videobar-container">
-                <video autoplay muted loop playsinline class="videobar-height">
-                    <source src="/videos/<?php echo($videobar_video_file); ?>" type="video/mp4">
-                </video>
-                <videobar-contentbox>
-                    <centered-text-container>
-                        <videobar-title class="font-bold" id="videobar-title"><?php echo($videobar_title_text); ?></videobar-title>
-                        <videobar-subtitle id="videobar-subtitle"><?php echo($videobar_subtitle_text); ?></videobar-subtitle>
-                    </centered-text-container>
-                </videobar-contentbox>
-            </videobar>
-        </navbar>
-        <body-container>
-            <body-content>
+<?php
+    if ($videobar_enabled) {
+        echo <<<HEREDOC
+                    <videobar class="videobar-height" id="videobar-container">
+                        <video autoplay muted loop playsinline class="videobar-height">
+                            <source src="/videos/$videobar_video_file" type="video/mp4">
+                        </video>
+                        <videobar-contentbox>
+                            <centered-text-container>
+                                <videobar-title class="font-bold" id="videobar-title">$videobar_title_text</videobar-title>
+                                <videobar-subtitle id="videobar-subtitle">$videobar_subtitle_text</videobar-subtitle>
+                            </centered-text-container>
+                        </videobar-contentbox>
+                    </videobar>
+                </navbar>
+                <body-container class="body-container-videobar-offset">
+                    <body-content>
+        HEREDOC;
+    } else {
+        echo <<<HEREDOC
+                </navbar>
+                <body-container class="body-container-navbar-offset">
+                    <body-content>
+        HEREDOC;
+    }
+?>

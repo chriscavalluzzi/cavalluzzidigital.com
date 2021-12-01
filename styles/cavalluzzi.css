@@ -221,7 +221,14 @@ centered-text-container {
 body-container {
     position: relative;
     display: block;
+}
+
+.body-container-videobar-offset {
     top: 340px; /* (navbar.max + videobar.max) */
+}
+
+.body-container-navbar-offset {
+    top: 100px; /* (navbar.max) */
 }
 
 body-content {
@@ -538,6 +545,10 @@ footer-company-text {
         display: none;
     }
 
+    .body-container-navbar-offset {
+        top: 100px;
+    }
+
     .content-gradient-3d-ruins {
         background-image: unset;
     }
@@ -578,7 +589,7 @@ footer-company-text {
         --max-font-size: 18;
     }
 
-    body-container {
+    .body-container-videobar-offset {
         top: 460px;
     }
 
@@ -660,8 +671,12 @@ footer-company-text {
         white-space: unset;
     }
 
-    body-container {
+    .body-container-videobar-offset {
         top: 580px;
+    }
+
+    .body-container-navbar-offset {
+        top: 120px;
     }
 
     body-content-text-title {

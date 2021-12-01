@@ -5,6 +5,7 @@
     $page_uri = "web";
     $page_title = subpage_title("Web Development");
     $page_description = "Sites and apps that are modern, fast, and beautiful.";
+    $videobar_enabled = TRUE;
     $videobar_video_file = "";
     $videobar_title_text = "THIS SITE WAS BUILT FROM SCRATCH";
     $videobar_subtitle_text = "with PHP, HTML5, CSS, JavaScript, and jQuery";

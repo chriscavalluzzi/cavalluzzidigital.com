@@ -5,6 +5,7 @@
     $page_uri = "editing";
     $page_title = subpage_title("Video and Image Editing");
     $page_description = "";
+    $videobar_enabled = TRUE;
     $videobar_video_file = "";
     $videobar_title_text = "MEDIA WITH A MESSAGE";
     $videobar_subtitle_text = "";

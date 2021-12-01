@@ -5,6 +5,7 @@
     $page_uri = "";
     $page_title = homepage_title();
     $page_description = "Creating all things digital. Media, apps, and assets for all your digital needs.";
+    $videobar_enabled = TRUE;
     $videobar_video_file = "home_page.mp4";
     $videobar_title_text = "CREATING ALL THINGS DIGITAL";
     $videobar_subtitle_text = "";

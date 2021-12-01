@@ -5,6 +5,7 @@
     $page_uri = "software";
     $page_title = subpage_title("Software Development");
     $page_description = "Data processing and RESTful APIs, done with stability and efficiency.";
+    $videobar_enabled = TRUE;
     $videobar_video_file = "";
     $videobar_title_text = "STABILITY AND EFFICIENCY";
     $videobar_subtitle_text = "";
