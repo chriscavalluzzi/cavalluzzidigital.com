@@ -366,6 +366,28 @@ body-content-button:hover {
     cursor: pointer;
 }
 
+contact-page-text-container {
+    width: 80%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    z-index: 2;
+    padding: 3em 0;
+    text-align: left;
+    font-size: 80%;
+}
+
+contact-page-title {
+    display: block;
+    font-size: 2.5em;
+    padding-bottom: 1em;
+}
+
+contact-page-info {
+    display: block;
+    font-size: 1.25em;
+}
+
 contact-form-container {
     display: block;
     font-size: 14px;
@@ -692,7 +714,7 @@ footer-company-text {
     }
 
     contact-form-container {
-        font-size: 24px;
+        font-size: 20px;
     }
 
     .footer-social-link {

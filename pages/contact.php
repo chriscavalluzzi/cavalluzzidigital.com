@@ -7,8 +7,8 @@
     $page_description = "";
     $videobar_enabled = FALSE;
     $videobar_video_file = "";
-    $videobar_title_text = "OUR JOURNEY STARTS HERE";
-    $videobar_subtitle_text = "We respond quickly, within 24 hours at the latest.<br>If your job needs to be completed quickly, please include as much information as possible in your initial message.";
+    $videobar_title_text = "";
+    $videobar_subtitle_text = "";
     $structured_data = '
             [{
                 "@context": "https://schema.org",
@@ -26,6 +26,15 @@
     <contact-form-container>
         <form class="contact-form" action="pages/contact-form-submit.php" method="POST">
             <table>
+                <tr>
+                    <td>
+                    </td>
+                    <td>
+                        <contact-page-text-container>
+                            <contact-page-title>Our journey starts here</contact-page-title>
+                            <contact-page-info>We respond quickly, within 24 hours at the latest.<br><br>If your job needs to be completed quickly, please include as much information as possible in your initial message.<br><br>Prefer to send a regular email? You can reach out to: <a class="footer-company-email-link" href="mailto:contact@cavalluzzidigital.com">contact@cavalluzzidigital.com</a></contact-page-info>
+                        </contact-page-text-container>
+                    </td>
                 <tr>
                     <td class="contact-form-label-container">
                         <label for="email">
