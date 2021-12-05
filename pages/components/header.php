@@ -55,7 +55,7 @@
                 <navbar-item class="navbar-button navbar-dropdown-button" onclick="navbarToggleMenu()">
                     <centered-text-container>MENU<span class="icon-angle-down" style="margin-left: 2px;"></span></centered-text-container>
                     <navbar-dropdown>
-                        <navbar-item class="navbar-button navbar-dropdown-item<?php navbar_highlight('3d'); ?>" onclick="navbarNavigate('3d')">
+                        <navbar-item class="navbar-button navbar-dropdown-item<?php navbar_highlight('3D'); ?>" onclick="navbarNavigate('3D')">
                             <centered-text-container>3D MODELING<navbar-dynamicbreak></navbar-dynamicbreak>AND ANIMATION</centered-text-container>
                         </navbar-item>
                         <navbar-item class="navbar-button navbar-dropdown-item<?php navbar_highlight('editing'); ?>" onclick="navbarNavigate('editing')">
@@ -76,7 +76,7 @@
                     </navbar-dropdown>
                     <navbar-dropdown-cancel-overlay onclick="navbarDisableMenu(); stopOnclickPropagation(arguments[0]);"></navbar-dropdown-cancel-overlay>
                 </navbar-item>
-                <navbar-item class="navbar-button<?php navbar_highlight('3d'); ?>" onclick="navbarNavigate('3d')">
+                <navbar-item class="navbar-button<?php navbar_highlight('3D'); ?>" onclick="navbarNavigate('3D')">
                     <centered-text-container>3D MODELING<navbar-dynamicbreak></navbar-dynamicbreak>AND ANIMATION</centered-text-container>
                 </navbar-item>
                 <navbar-item class="navbar-button<?php navbar_highlight('editing'); ?>" onclick="navbarNavigate('editing')">

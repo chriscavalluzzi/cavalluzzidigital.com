@@ -2,7 +2,7 @@
 
     include 'components/utilities.php';
 
-    $page_uri = "3d";
+    $page_uri = "3D";
     $page_title = subpage_title("3D Modeling and Animation");
     $page_description = "3D modeling, rigging, animation, and rendering for use in films, games, and more.";
     $videobar_enabled = TRUE;

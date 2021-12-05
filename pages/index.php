@@ -21,7 +21,7 @@
         array("3D modeling, rigging, animation, and rendering for use in films, games, and more."),
         "body-content-button-group-right",
         "",
-        array(array("3D Modeling and Animation","3d"))
+        array(array("3D Modeling and Animation","3D"))
     );
 
     content_block(
