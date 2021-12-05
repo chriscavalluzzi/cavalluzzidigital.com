@@ -7,5 +7,5 @@ Options +FollowSymLinks -MultiViews
 RewriteEngine On
 RewriteBase /
 
-RewriteCond /var/www/html/pages%{REQUEST_URI}.php -f
-RewriteRule !.*\.php$ /var/www/html/pages%{REQUEST_URI}.php [QSA,L]
+RewriteCond /var/www/html/pages/${tolower:%{REQUEST_URI}}.php -f
+RewriteRule !.*\.php$ /var/www/html/pages/${tolower:%{REQUEST_URI}}.php [QSA,L]
