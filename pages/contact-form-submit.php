@@ -81,8 +81,12 @@
         $mail->Body = $bodyHTML;
         $mail->AltBody = $bodyPlain;
 
+        // send email
         $mail->send();
-        echo 'Message has been sent';
+
+        // serve success page
+        header("LOCATION: https://cavalluzzidigital.com/contact-success");
+        include 'contact-success.php';
 
     } catch (Exception $e) {
 
