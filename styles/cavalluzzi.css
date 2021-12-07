@@ -235,7 +235,6 @@ centered-text-container {
 }
 
 body-container {
-    position: relative;
     display: block;
     -webkit-box-flex: 1;
     -ms-flex: 1;
@@ -243,11 +242,11 @@ body-container {
 }
 
 .body-container-videobar-offset {
-    top: 340px; /* (navbar.max + videobar.max) */
+    padding-top: 340px; /* (navbar.max + videobar.max) */
 }
 
 .body-container-navbar-offset {
-    top: 100px; /* (navbar.max) */
+    padding-top: 100px; /* (navbar.max) */
 }
 
 body-content {
@@ -482,7 +481,6 @@ contact-form-container textarea {
 
 footer {
     display: block;
-    position: relative;
     height: 100px;
     width: 100%;
     padding: 0 30px;
@@ -588,7 +586,7 @@ footer-company-text {
     }
 
     .body-container-navbar-offset {
-        top: 100px;
+        padding-top: 100px;
     }
 
     .content-gradient-3d-ruins {
@@ -632,7 +630,7 @@ footer-company-text {
     }
 
     .body-container-videobar-offset {
-        top: 460px;
+        padding-top: 460px;
     }
 
     body-content-text-title {
@@ -714,11 +712,11 @@ footer-company-text {
     }
 
     .body-container-videobar-offset {
-        top: 580px;
+        padding-top: 580px;
     }
 
     .body-container-navbar-offset {
-        top: 120px;
+        padding-top: 120px;
     }
 
     body-content-text-title {
