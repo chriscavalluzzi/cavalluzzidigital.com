@@ -87,6 +87,7 @@
         // serve success page
         header("LOCATION: https://cavalluzzidigital.com/contact-success");
         include 'contact-success.php';
+        exit();
 
     } catch (Exception $e) {
 
