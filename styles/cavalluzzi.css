@@ -390,7 +390,7 @@ contact-page-text-container {
     flex-flow: column nowrap;
     justify-content: center;
     z-index: 2;
-    padding: 3em 0;
+    padding: 5em 0 4.5em 0;
     text-align: left;
     font-size: 80%;
 }
