@@ -264,15 +264,15 @@ body-content-block {
 }
 
 .content-gradient-home-timeline {
-    background-image: linear-gradient(to left, hsla(0, 0%, 10%, 0%) 0%, hsla(0, 0%, 10%, 100%) 50%);
+    background-image: linear-gradient(to left, hsla(0, 0%, 10%, 0%) 33%, hsla(0, 0%, 10%, 100%) 66%);
 }
 
 .content-gradient-home-glog {
     background-image: linear-gradient(to right, hsla(0, 0%, 0%, 0%) 0%, hsla(0, 0%, 0%, 100%) 50%);
 }
 
-.content-gradient-home-3dview {
-    background-image: linear-gradient(to left, hsla(0, 0%, 10%, 0%) 0%, hsla(0, 0%, 10%, 100%) 50%);
+.content-gradient-home-responsive {
+    background-image: linear-gradient(to left, hsla(0, 0%, 10%, 0%) 15%, hsla(0, 0%, 10%, 80%) 66%);
 }
 
 .content-gradient-home-maroonbells {
@@ -291,12 +291,16 @@ body-content-block {
     background-image: linear-gradient(to right, hsla(239, 30%, 20%, 0%) 0%, hsla(239, 30%, 20%, 100%) 50%);
 }
 
-.content-gradient-web-videobar {
-    background-image: linear-gradient(to right, hsla(239, 30%, 20%, 0%) 0%, hsla(239, 30%, 20%, 100%) 50%);
+.content-gradient-web-elements {
+    background-image: linear-gradient(to right, hsla(0, 0%, 12%, 0%) 15%, hsla(0, 0%, 12%, 100%) 50%);
 }
 
 .content-gradient-web-csslayout {
-    background-image: linear-gradient(to left, hsla(0, 0%, 10%, 0%) 0%, hsla(0, 0%, 10%, 100%) 50%);
+    background-image: linear-gradient(to left, hsla(0, 0%, 5%, 0%) 15%, hsla(0, 0%, 5%, 100%) 66%);
+}
+
+.content-gradient-web-3dview {
+    background-image: linear-gradient(to right, hsla(0, 0%, 10%, 0%) 15%, hsla(0, 0%, 10%, 100%) 75%);
 }
 
 body-content-image {

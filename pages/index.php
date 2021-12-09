@@ -49,10 +49,10 @@
     );
 
     content_block(
-        '/images/banners/3d_view.jpg',
-        70,
+        '/images/banners/responsive.jpg',
+        80,
         50,
-        "body-content-text-container-left content-gradient-home-3dview",
+        "body-content-text-container-left content-gradient-home-responsive",
         "Custom websites for the modern world",
         array("Responsive and clean experiences for all devices."),
         "body-content-button-group-left",
