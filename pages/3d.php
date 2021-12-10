@@ -24,7 +24,7 @@
 
     content_block(
         '/images/banners/ruins.jpg',
-        50,
+        30,
         50,
         "body-content-text-container-right body-content-font-invert content-gradient-3d-ruins",
         "Realism redefined",

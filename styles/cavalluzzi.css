@@ -284,7 +284,7 @@ body-content-block {
 }
 
 .content-gradient-3d-ruins {
-    background-image: linear-gradient(to right, hsla(221, 3%, 89%, 0%) 30%, hsla(221, 3%, 89%, 70%) 50%);
+    background-image: linear-gradient(to right, hsla(221, 3%, 89%, 0%) 15%, hsla(221, 3%, 89%, 80%) 66%);
 }
 
 .content-gradient-3d-cubes {
