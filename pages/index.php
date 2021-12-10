@@ -37,14 +37,14 @@
     );
 
     content_block(
-        '/images/banners/glog.jpg',
-        3,
+        '/images/banners/fabricator.jpg',
+        20,
         50,
-        "body-content-text-container-right content-gradient-home-glog",
+        "body-content-text-container-right body-content-font-invert content-gradient-home-fabricator",
         "Building stable and efficient apps",
         array("Writing code that is clean, stable, adaptable, and easy to understand."),
         "body-content-button-group-right",
-        "",
+        "body-content-button-invert",
         array(array("Software Development","software"))
     );
 
@@ -65,7 +65,7 @@
         15,
         43,
         "body-content-text-container-right content-gradient-home-maroonbells body-content-font-invert",
-        "Working with a smile",
+        "Creating with a smile",
         array("My goal is to bring joy, positivity, and peace of mind to those around me."),
         "body-content-button-group-right",
         "body-content-button-invert",

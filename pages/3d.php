@@ -59,10 +59,10 @@
     );
 
     content_block(
-        '/images/banners/subdivisions.jpg',
-        100,
+        '/images/banners/cubes.jpg',
+        15,
         50,
-        "body-content-text-container-left content-gradient-3d-subdivisions",
+        "body-content-text-container-left content-gradient-3d-cubes",
         "Get started",
         array("Let your imagination run wild, and let me create it."),
         "body-content-button-group-left",

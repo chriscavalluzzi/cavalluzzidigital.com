@@ -23,10 +23,10 @@
     include 'components/header.php';
 
     content_block(
-        '/images/banners/videobar.png',
-        5,
+        '/images/banners/diff.jpg',
+        4,
         50,
-        "body-content-text-container-right content-gradient-software-videobar",
+        "body-content-text-container-right content-gradient-software-diff",
         "Clean and controlled",
         array("I write code that is simple, source-controlled, adaptable, and easy to maintain."),
         NULL,
@@ -35,22 +35,22 @@
     );
 
     content_block(
-        '',
-        0,
+        '/images/banners/languages.jpg',
+        76,
         50,
-        "body-content-text-container-left content-gradient-home-timeline",
+        "body-content-text-container-left content-gradient-software-languages",
         "Language-agnostic",
-        array("Experienced in many languagues, including C++, Python, Java, SQL, Swift, C#, and Javascript...","...and always excited to learn another!"),
+        array("Experienced in many languagues, including C++, Python, Java, SQL, PHP, Swift, C#, and Javascript.","Ready to use the best language for the task at hand."),
         NULL,
         NULL,
         NULL
     );
 
     content_block(
-        '',
-        100,
+        '/images/banners/api.jpg',
+        8,
         50,
-        "body-content-text-container-right content-gradient-software-videobar",
+        "body-content-text-container-right content-gradient-software-api",
         "Software that talks",
         array("Creating APIs, server-client software, and cross-application data integrations."),
         NULL,
@@ -59,10 +59,10 @@
     );
 
     content_block(
-        '',
-        0,
+        '/images/banners/tables.jpg',
+        65,
         50,
-        "body-content-text-container-left content-gradient-home-timeline",
+        "body-content-text-container-left content-gradient-software-tables",
         "Data transformed",
         array("Building database schemas, processing data, and managing lifecycles."),
         NULL,
@@ -71,10 +71,10 @@
     );
 
     content_block(
-        '',
-        0,
+        '/images/banners/games.jpg',
+        8,
         50,
-        "body-content-text-container-right content-gradient-software-videobar",
+        "body-content-text-container-right content-gradient-software-games",
         "Games made beautifully",
         array("Realtime interactive experiences made in Godot, Unreal, Unity, SFML, and more."),
         NULL,
@@ -83,10 +83,10 @@
     );
 
     content_block(
-        '',
-        0,
+        '/images/banners/main.jpg',
+        72,
         50,
-        "body-content-text-container-left content-gradient-home-timeline",
+        "body-content-text-container-left content-gradient-software-main",
         "Get started",
         array("From web apps to desktop apps, from back-end software to video games, nothing is out of reach."),
         "body-content-button-group-left",

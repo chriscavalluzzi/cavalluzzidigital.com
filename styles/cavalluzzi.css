@@ -271,6 +271,10 @@ body-content-block {
     background-image: linear-gradient(to right, hsla(0, 0%, 0%, 0%) 0%, hsla(0, 0%, 0%, 100%) 50%);
 }
 
+.content-gradient-home-fabricator {
+    background-image: linear-gradient(to right, hsla(0, 0%, 95%, 0%) 25%, hsla(0, 0%, 95%, 100%) 100%);
+}
+
 .content-gradient-home-responsive {
     background-image: linear-gradient(to left, hsla(0, 0%, 10%, 0%) 15%, hsla(0, 0%, 10%, 80%) 66%);
 }
@@ -283,12 +287,32 @@ body-content-block {
     background-image: linear-gradient(to right, hsla(221, 3%, 89%, 0%) 30%, hsla(221, 3%, 89%, 70%) 50%);
 }
 
-.content-gradient-3d-subdivisions {
-    background-image: linear-gradient(to left, hsla(0, 0%, 10%, 0%) 0%, hsla(0, 0%, 10%, 66%) 50%);
+.content-gradient-3d-cubes {
+    background-image: linear-gradient(to left, hsla(0, 0%, 0%, 0%) 15%, hsla(0, 0%, 0%, 80%) 65%);
 }
 
-.content-gradient-software-videobar {
-    background-image: linear-gradient(to right, hsla(239, 30%, 20%, 0%) 0%, hsla(239, 30%, 20%, 100%) 50%);
+.content-gradient-software-diff {
+    background-image: linear-gradient(to right, hsla(212, 48%, 9%, 0%) 25%, hsla(212, 48%, 9%, 100%) 50%);
+}
+
+.content-gradient-software-languages {
+    background-image: linear-gradient(to left, hsla(0, 0%, 10%, 0%) 10%, hsla(0, 0%, 10%, 90%) 40%);
+}
+
+.content-gradient-software-api {
+    background-image: linear-gradient(to right, hsla(0, 0%, 13%, 0%) 25%, hsla(0, 0%, 13%, 100%) 50%);
+}
+
+.content-gradient-software-tables {
+    background-image: linear-gradient(to left, hsla(0, 0%, 0%, 0%) 0%, hsla(0, 0%, 0%, 90%) 66%);
+}
+
+.content-gradient-software-games {
+    background-image: linear-gradient(to right, hsla(223, 25%, 10%, 0%) 25%, hsla(223, 25%, 10%, 100%) 75%);
+}
+
+.content-gradient-software-main {
+    background-image: linear-gradient(to left, hsla(0, 0%, 12%, 0%) 33%, hsla(0, 0%, 12%, 100%) 66%);
 }
 
 .content-gradient-web-elements {
