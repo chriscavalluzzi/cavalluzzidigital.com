@@ -264,7 +264,7 @@ body-content-block {
 }
 
 .content-gradient-home-timeline {
-    background-image: linear-gradient(to left, hsla(0, 0%, 10%, 0%) 33%, hsla(0, 0%, 10%, 100%) 66%);
+    background-image: linear-gradient(to left, hsla(0, 0%, 10%, 0%) 25%, hsla(0, 0%, 10%, 95%) 50%);
 }
 
 .content-gradient-home-glog {
@@ -289,6 +289,22 @@ body-content-block {
 
 .content-gradient-3d-cubes {
     background-image: linear-gradient(to left, hsla(0, 0%, 0%, 0%) 15%, hsla(0, 0%, 0%, 80%) 65%);
+}
+
+.content-gradient-editing-workspace {
+    background-image: linear-gradient(to right, hsla(0, 0%, 10%, 0%) 5%, hsla(0, 0%, 10%, 97%) 50%);
+}
+
+.content-gradient-editing-eye {
+    background-image: linear-gradient(to right, hsla(221, 3%, 89%, 0%) 20%, hsla(221, 3%, 89%, 50%) 50%);
+}
+
+.content-gradient-editing-logo {
+    background-image: linear-gradient(to left, hsla(0, 0%, 25%, 0%) 15%, hsla(0, 0%, 25%, 100%) 60%);
+}
+
+.content-gradient-editing-street {
+    background-image: linear-gradient(to right, hsla(0, 0%, 0%, 0%) 15%, hsla(0, 0%, 0%, 50%) 60%);
 }
 
 .content-gradient-software-diff {
@@ -618,6 +634,10 @@ footer-company-text {
     }
 
     .content-gradient-3d-ruins {
+        background-image: unset;
+    }
+
+    .content-gradient-editing-eye {
         background-image: unset;
     }
 }

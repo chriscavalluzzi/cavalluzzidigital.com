@@ -23,20 +23,20 @@
     include 'components/header.php';
 
     content_block(
-        '',
-        100,
+        '/images/banners/workspace.jpg',
+        12,
         50,
-        "body-content-text-container-right content-gradient-software-videobar",
+        "body-content-text-container-right content-gradient-editing-workspace",
         "Full-pipeline video editing",
-        array("More than a decade of experience editing sequences from start to finish,<br>including assembly, color grading, sound editing, and graphics."),
+        array("More than a decade of experience editing sequences from start to finish, including assembly, color grading, sound editing, and graphics."),
         NULL,
         NULL,
         NULL
     );
 
     content_block(
-        '',
-        0,
+        '/images/banners/effects.jpg',
+        90,
         50,
         "body-content-text-container-left content-gradient-home-timeline",
         "Seamless effects",
@@ -47,22 +47,22 @@
     );
 
     content_block(
-        '',
-        100,
+        '/images/banners/eye.jpg',
+        17,
         50,
-        "body-content-text-container-right content-gradient-software-videobar",
+        "body-content-text-container-right body-content-font-invert content-gradient-editing-eye",
         "Images as imagined",
-        array("Versatile photo editing from subtle and natural clean-up to large-scale reconstruction and fabrication."),
+        array("Versatile photo editing from subtle and natural touch-up to large-scale reconstruction and fabrication."),
         NULL,
         NULL,
         NULL
     );
 
     content_block(
-        '',
-        0,
+        '/images/banners/logo.jpg',
+        90,
         50,
-        "body-content-text-container-left content-gradient-home-timeline",
+        "body-content-text-container-left content-gradient-editing-logo",
         "Clean and effective graphics",
         array("Vector graphics for logos, icons, plans, maps, and more."),
         NULL,
@@ -71,10 +71,10 @@
     );
 
     content_block(
-        '',
-        0,
+        '/images/banners/street.jpg',
+        70,
         50,
-        "body-content-text-container-right content-gradient-software-videobar",
+        "body-content-text-container-right content-gradient-editing-street",
         "Get started",
         array("No matter what you provide, I can shape it into something beautiful."),
         "body-content-button-group-right",
