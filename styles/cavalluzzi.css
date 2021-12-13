@@ -319,8 +319,8 @@ body-content-block {
     background-image: linear-gradient(to right, hsla(0, 0%, 13%, 0%) 25%, hsla(0, 0%, 13%, 100%) 50%);
 }
 
-.content-gradient-software-tables {
-    background-image: linear-gradient(to left, hsla(0, 0%, 0%, 0%) 0%, hsla(0, 0%, 0%, 90%) 66%);
+.content-gradient-software-database {
+    background-image: linear-gradient(to left, hsla(210, 43%, 13%, 0%) 0%, hsla(210, 43%, 13%, 90%) 66%);
 }
 
 .content-gradient-software-games {

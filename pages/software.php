@@ -59,10 +59,10 @@
     );
 
     content_block(
-        '/images/banners/tables.jpg',
-        65,
+        '/images/banners/database.jpg',
+        44,
         50,
-        "body-content-text-container-left content-gradient-software-tables",
+        "body-content-text-container-left content-gradient-software-database",
         "Data transformed",
         array("Building database schemas, processing data, and managing lifecycles."),
         NULL,
