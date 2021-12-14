@@ -32,7 +32,7 @@
                     <td>
                         <contact-page-text-container>
                             <contact-page-title>Our journey starts here</contact-page-title>
-                            <contact-page-info>We respond quickly, within 24 hours at the latest.<br><br>If your job needs to be completed quickly, please include as much information as possible in your initial message.<br><br>Prefer to send a regular email? You can reach out to: <a class="footer-company-email-link" href="mailto:contact@cavalluzzidigital.com">contact@cavalluzzidigital.com</a></contact-page-info>
+                            <contact-page-info>I respond quickly, within 24 hours at the latest.<br><br>If this is an urgent request, please include as much information as possible in your initial message.<br><br>Prefer to send a regular email? You can reach out to: <a class="footer-company-email-link" href="mailto:contact@cavalluzzidigital.com">contact@cavalluzzidigital.com</a></contact-page-info>
                         </contact-page-text-container>
                     </td>
                 </tr>
