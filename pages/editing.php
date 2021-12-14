@@ -6,7 +6,7 @@
     $page_title = subpage_title("Video and Image Editing");
     $page_description = "";
     $videobar_enabled = TRUE;
-    $videobar_video_file = "";
+    $videobar_video_file = "editing.mp4";
     $videobar_title_text = "MEDIA WITH A MESSAGE";
     $videobar_subtitle_text = "";
     $structured_data = '
