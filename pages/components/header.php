@@ -115,12 +115,14 @@
                     </navbar>
                     <body-container class="body-container-videobar-offset">
                         <body-content>
+        
         HEREDOC;
     } else {
         echo <<<HEREDOC
                     </navbar>
                     <body-container class="body-container-navbar-offset">
                         <body-content>
+        
         HEREDOC;
     }
 ?>
