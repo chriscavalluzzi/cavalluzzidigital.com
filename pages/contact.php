@@ -47,16 +47,6 @@
                                 </tr>
                                 <tr>
                                     <td class="contact-form-label-container">
-                                        <label for="email-confirmation">
-                                            Confirm email address
-                                        </label>
-                                    </td>
-                                    <td class="contact-form-input-container">
-                                        <input name="email-confirmation" id="email-confirmation" type="email" required="true" size="30">
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="contact-form-label-container">
                                         <label for="name">
                                             Your name
                                         </label>
