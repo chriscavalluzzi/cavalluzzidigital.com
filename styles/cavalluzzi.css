@@ -195,7 +195,7 @@ videobar video {
     width: 100%;
     position: absolute;
     object-fit: cover;
-    opacity: 0.4;
+    opacity: 0.37;
 }
 
 videobar-contentbox {
