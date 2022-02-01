@@ -23,12 +23,12 @@
     include 'components/header.php';
 
     content_block(
-        '/images/banners/toys.jpg',
-        5,
+        '/images/banners/filming.jpg',
+        3,
         50,
-        "body-content-text-container-right content-gradient-about-toys",
+        "body-content-text-container-right body-content-font-invert content-gradient-about-filming",
         "Starting early",
-        array("My first digital adventure was learning to create stop-motion animations with my childhood toys. This gave me my first reason to learn how to use a computer, which quickly became my primary outlet for creativity."),
+        array("My first digital adventure was learning to film and edit videos with my childhood friends. This gave me my first reason to learn how to use a computer, which quickly became my primary outlet for creativity."),
         NULL,
         NULL,
         NULL
@@ -72,7 +72,7 @@
 
     content_block(
         '/images/banners/dreaming.jpg',
-        20,
+        17,
         50,
         "body-content-text-container-right content-gradient-about-dreaming",
         "Dreaming of a brighter future",
