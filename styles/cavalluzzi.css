@@ -397,12 +397,14 @@ body-content-text-container {
 body-content-text-title {
     font-size: 32px;
     margin-bottom: 0.5em;
+    display: block;
 }
 
 body-content-text-paragraph {
     font-size: 14px;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
+    display: block;
 }
 
 .body-content-font-invert {

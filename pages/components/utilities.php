@@ -25,7 +25,7 @@ function content_block(
     for($i = 0; $i < count($paragraphs); $i++) {
         $paragraph_markup .= <<<HEREDOC
 
-                                    <body-content-text-paragraph>
+                                    <body-content-text-paragraph class="balance-text">
                                         $paragraphs[$i]
                                     </body-content-text-paragraph>
         HEREDOC;
@@ -63,9 +63,11 @@ function content_block(
                         <body-content-block>
                             <body-content-image style="background-image: url('$img_path'); background-position: $bg_pos_x% $bg_pos_y%;"></body-content-image>
                             <body-content-text-container class="$text_classes">
-                                <body-content-text-title>
-                                    $title
-                                </body-content-text-title>$paragraph_markup$button_markup
+                                <div>
+                                    <body-content-text-title>
+                                        $title
+                                    </body-content-text-title>$paragraph_markup$button_markup
+                                </div>
                             </body-content-text-container>
                         </body-content-block>
 

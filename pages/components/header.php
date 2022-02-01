@@ -34,6 +34,7 @@
         <meta name="theme-color" content="#ffffff">
         <script src="/scripts/external/jquery-3.6.0.js"></script>
         <script src="/scripts/navbar.js"></script>
+        <script src="/scripts/external/balance-text/jquery.balancetext.min.js"></script>
 <?php
     if ($structured_data) {
         echo <<<HEREDOC
