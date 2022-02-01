@@ -344,7 +344,7 @@ body-content-block {
 }
 
 .content-gradient-about-filming {
-    background-image: linear-gradient(to right, hsla(0, 0%, 95%, 0%) 15%, hsla(0, 0%, 95%, 70%) 40%);
+    background-image: linear-gradient(to right, hsla(0, 0%, 5%, 0%) 15%, hsla(0, 0%, 5%, 70%) 40%);
 }
 
 .content-gradient-about-rain {

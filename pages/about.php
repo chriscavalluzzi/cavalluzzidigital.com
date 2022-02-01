@@ -26,7 +26,7 @@
         '/images/banners/filming.jpg',
         3,
         50,
-        "body-content-text-container-right body-content-font-invert content-gradient-about-filming",
+        "body-content-text-container-right content-gradient-about-filming",
         "Starting early",
         array("My first digital adventure was learning to film and edit videos with my childhood friends. This gave me my first reason to learn how to use a computer, which quickly became my primary outlet for creativity."),
         NULL,
