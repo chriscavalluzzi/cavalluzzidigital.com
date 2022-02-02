@@ -52,7 +52,7 @@
         50,
         "body-content-text-container-right content-gradient-about-house",
         "Learning for friends",
-        array("The more I learned, the more I could do to help my friends. I built websites to showcase their abilities, edited their headshots, and created advertisements to promote their events, and more."),
+        array("The more I learned, the more I could do to help my friends. I built websites to showcase their abilities, edited their headshots, created advertisements to promote their events, and more."),
         NULL,
         NULL,
         NULL
