@@ -5,9 +5,9 @@
     $page_uri = "about";
     $page_title = subpage_title("My Story");
     $page_description = "";
-    $videobar_enabled = FALSE;
-    $videobar_video_file = "";
-    $videobar_title_text = "";
+    $videobar_enabled = TRUE;
+    $videobar_video_file = "about.mp4";
+    $videobar_title_text = "SPREADING JOY THROUGH CREATIVITY";
     $videobar_subtitle_text = "";
     $structured_data = '
             [{
@@ -27,7 +27,7 @@
         3,
         50,
         "body-content-text-container-right content-gradient-about-filming",
-        "Starting early",
+        "Creating since childhood",
         array("My first digital adventure was learning to film and edit videos with my childhood friends. This gave me my first reason to learn how to use a computer, which quickly became my primary outlet for creativity."),
         NULL,
         NULL,
@@ -40,7 +40,7 @@
         50,
         "body-content-text-container-left content-gradient-about-rain",
         "Learning for fun",
-        array("I taught myself almost everything I know over the course of countless passion projects. Writing software, building games, editing short films - every project helped me improve my skills and refine my style."),
+        array("I taught myself almost everything I know over the course of countless passion projects. Writing software, building games, editing short films - every new project helped me improve my skills and refine my style."),
         NULL,
         NULL,
         NULL
@@ -76,7 +76,7 @@
         50,
         "body-content-text-container-right content-gradient-about-dreaming",
         "Dreaming of a brighter future",
-        array("Whether it’s inspiring hope or just bringing a smile to someone’s face, I want to use my skills to bring about positive change in the world."),
+        array("Whether it’s inspiring hope or just bringing a smile to someone’s face, my goal is to continue using my skills to bring about positive change in the world."),
         NULL,
         NULL,
         NULL
