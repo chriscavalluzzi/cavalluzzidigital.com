@@ -42,10 +42,6 @@ function resizeVideobar() {
     $( "videobar-contentbox" ).css('opacity', videobar_content_opacity.toString());
 }
 
-function navbarNavigate(page_name) {
-    window.location.href = "/" + page_name;
-}
-
 function navbarToggleMenu() {
     if (navbar_menu_enabled) {
         navbarDisableMenu();

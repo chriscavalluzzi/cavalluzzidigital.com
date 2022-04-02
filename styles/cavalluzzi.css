@@ -430,7 +430,7 @@ body-content-button-group {
     margin-right: auto;
 }
 
-body-content-button {
+.body-content-button {
     display: inline-block;
     border: 1px solid white;
     border-radius: 100em;
@@ -444,7 +444,7 @@ body-content-button {
     border-color: hsl(0, 0%, 10%);
 }
 
-body-content-button:hover {
+.body-content-button:hover {
     background-color: hsla(0, 0%, 50%, 25%);
     transition: background-color 0.15s;
     cursor: pointer;

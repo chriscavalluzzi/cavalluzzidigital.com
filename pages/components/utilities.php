@@ -41,9 +41,9 @@ function content_block(
         HEREDOC;
         for($i = 0; $i < count($buttons); $i++) {
             $button_markup .= <<<HEREDOC
-                                            <body-content-button onclick="navbarNavigate('{$buttons[$i][1]}')" class="$button_class">
+                                            <a href="/{$buttons[$i][1]}" class="body-content-button $button_class">
                                                 {$buttons[$i][0]}<span class="icon-angle-right"></span>
-                                            </body-content-button>
+                                            </a>
 
             HEREDOC;
             if($i != count($buttons) - 1) {
