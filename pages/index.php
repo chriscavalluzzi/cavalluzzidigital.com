@@ -61,10 +61,10 @@
     );
 
     content_block(
-        '/images/banners/maroon_bells.jpg',
-        15,
+        '/images/banners/triangles.jpg',
+        6,
         43,
-        "body-content-text-container-right content-gradient-home-maroonbells body-content-font-invert",
+        "body-content-text-container-right content-gradient-home-triangles body-content-font-invert",
         "Creating with a smile",
         array("My goal is to bring joy, positivity, and peace of mind to those around me."),
         "body-content-button-group-right",

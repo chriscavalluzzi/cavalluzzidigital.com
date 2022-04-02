@@ -279,8 +279,8 @@ body-content-block {
     background-image: linear-gradient(to left, hsla(0, 0%, 10%, 0%) 15%, hsla(0, 0%, 10%, 80%) 66%);
 }
 
-.content-gradient-home-maroonbells {
-    background-image: linear-gradient(to right, hsla(206, 86%, 86%, 0%) 20%, hsla(206, 86%, 86%, 100%) 70%);
+.content-gradient-home-triangles {
+    background-image: linear-gradient(to right, hsla(0, 0%, 100%, 0%) 20%, hsla(0, 0%, 100%, 90%) 60%);
 }
 
 .content-gradient-3d-ruins {
