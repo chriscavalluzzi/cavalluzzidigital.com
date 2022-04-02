@@ -50,53 +50,53 @@
             <navbar id="navbar">
                 <navbar-row>
                     <navbar-bookend></navbar-bookend>
-                    <navbar-item class="navbar-title navbar-button" onclick="navbarNavigate('')">
+                    <a href="/" title="Home" class="navbar-item navbar-title navbar-button">
                         <centered-text-container class="font-bold">CHRIS<navbar-dynamicbreak></navbar-dynamicbreak>CAVALLUZZI</centered-text-container>
-                    </navbar-item>
-                    <navbar-item class="navbar-item-persistent navbar-divider-container"><navbar-divider></navbar-divider></navbar-item>
-                    <navbar-item class="navbar-button navbar-dropdown-button" onclick="navbarToggleMenu()">
+                    </a>
+                    <div class="navbar-item navbar-item-persistent navbar-divider-container"><navbar-divider></navbar-divider></div>
+                    <div class="navbar-item navbar-button navbar-dropdown-button" onclick="navbarToggleMenu()">
                         <centered-text-container>MENU<span class="icon-angle-down" style="margin-left: 2px;"></span></centered-text-container>
                         <navbar-dropdown>
-                            <navbar-item class="navbar-button navbar-dropdown-item<?php navbar_highlight('3D'); ?>" onclick="navbarNavigate('3D')">
+                            <a href="/3D" title="3D Modeling and Animation" class="navbar-item navbar-button navbar-dropdown-item<?php navbar_highlight('3D'); ?>">
                                 <centered-text-container>3D MODELING<navbar-dynamicbreak></navbar-dynamicbreak>AND ANIMATION</centered-text-container>
-                            </navbar-item>
-                            <navbar-item class="navbar-button navbar-dropdown-item<?php navbar_highlight('editing'); ?>" onclick="navbarNavigate('editing')">
+                            </a>
+                            <a href="/editing" title="Video and Image Editing" class="navbar-item navbar-button navbar-dropdown-item<?php navbar_highlight('editing'); ?>">
                                 <centered-text-container>VIDEO AND<navbar-dynamicbreak></navbar-dynamicbreak>IMAGE EDITING</centered-text-container>
-                            </navbar-item>
-                            <navbar-item class="navbar-button navbar-dropdown-item<?php navbar_highlight('software'); ?>" onclick="navbarNavigate('software')">
+                            </a>
+                            <a href="/software" title="Software Development" class="navbar-item navbar-button navbar-dropdown-item<?php navbar_highlight('software'); ?>">
                                 <centered-text-container>SOFTWARE<navbar-dynamicbreak></navbar-dynamicbreak>DEVELOPMENT</centered-text-container>
-                            </navbar-item>
-                            <navbar-item class="navbar-button navbar-dropdown-item<?php navbar_highlight('web'); ?>" onclick="navbarNavigate('web')">
+                            </a>
+                            <a href="/web" title="Website Development" class="navbar-item navbar-button navbar-dropdown-item<?php navbar_highlight('web'); ?>">
                                 <centered-text-container>WEBSITE<navbar-dynamicbreak></navbar-dynamicbreak>DEVELOPMENT</centered-text-container>
-                            </navbar-item>
-                            <navbar-item class="navbar-button navbar-dropdown-item<?php navbar_highlight('about'); ?>" onclick="navbarNavigate('about')">
+                            </a>
+                            <a href="/about" title="My Story" class="navbar-item navbar-button navbar-dropdown-item<?php navbar_highlight('about'); ?>">
                                 <centered-text-container>MY STORY</centered-text-container>
-                            </navbar-item>
-                            <navbar-item class="navbar-button navbar-dropdown-item<?php navbar_highlight('contact'); ?>" onclick="navbarNavigate('contact')">
+                            </a>
+                            <a href="/contact" title="Contact" class="navbar-item navbar-button navbar-dropdown-item<?php navbar_highlight('contact'); ?>">
                                 <centered-text-container>CONTACT</centered-text-container>
-                            </navbar-item>
+                            </a>
                         </navbar-dropdown>
                         <navbar-dropdown-cancel-overlay onclick="navbarDisableMenu(); stopOnclickPropagation(arguments[0]);"></navbar-dropdown-cancel-overlay>
-                    </navbar-item>
-                    <navbar-item class="navbar-button<?php navbar_highlight('3D'); ?>" onclick="navbarNavigate('3D')">
-                        <centered-text-container>3D MODELING<navbar-dynamicbreak></navbar-dynamicbreak>AND ANIMATION</centered-text-container>
-                    </navbar-item>
-                    <navbar-item class="navbar-button<?php navbar_highlight('editing'); ?>" onclick="navbarNavigate('editing')">
+                    </div>
+                    <a href="/3D" title="3D Modeling and Animation" class="navbar-item navbar-button<?php navbar_highlight('3D'); ?>">
+                            <centered-text-container>3D MODELING<navbar-dynamicbreak></navbar-dynamicbreak>AND ANIMATION</centered-text-container>
+                    </a>
+                    <a href="/editing" title="Video and Image Editing" class="navbar-item navbar-button<?php navbar_highlight('editing'); ?>">
                         <centered-text-container>VIDEO AND<navbar-dynamicbreak></navbar-dynamicbreak>IMAGE EDITING</centered-text-container>
-                    </navbar-item>
-                    <navbar-item class="navbar-button<?php navbar_highlight('software'); ?>" onclick="navbarNavigate('software')">
+                    </a>
+                    <a href="/software" title="Software Development" class="navbar-item navbar-button<?php navbar_highlight('software'); ?>">
                         <centered-text-container>SOFTWARE<navbar-dynamicbreak></navbar-dynamicbreak>DEVELOPMENT</centered-text-container>
-                    </navbar-item>
-                    <navbar-item class="navbar-button<?php navbar_highlight('web'); ?>" onclick="navbarNavigate('web')">
+                    </a>
+                    <a href="/web" title="Website Development" class="navbar-item navbar-button<?php navbar_highlight('web'); ?>">
                         <centered-text-container>WEBSITE<navbar-dynamicbreak></navbar-dynamicbreak>DEVELOPMENT</centered-text-container>
-                    </navbar-item>
-                    <navbar-item class="navbar-button<?php navbar_highlight('about'); ?>" onclick="navbarNavigate('about')">
+                    </a>
+                    <a href="/about" title="My Story" class="navbar-item navbar-button<?php navbar_highlight('about'); ?>">
                         <centered-text-container>MY<navbar-dynamicbreak></navbar-dynamicbreak>STORY</centered-text-container>
-                    </navbar-item>
+                    </a>
                     <navbar-space></navbar-space>
-                    <navbar-item class="navbar-button navbar-item-float-opposite<?php navbar_highlight('contact'); ?>" onclick="navbarNavigate('contact')">
+                    <a href="/contact" title="Contact" class="navbar-item navbar-button navbar-item-float-opposite<?php navbar_highlight('contact'); ?>">
                         <centered-text-container>CONTACT</centered-text-container>
-                    </navbar-item>
+                    </a>
                     <navbar-bookend></navbar-bookend>
                 </navbar-row>
 <?php

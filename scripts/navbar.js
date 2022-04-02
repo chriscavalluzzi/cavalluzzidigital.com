@@ -1,4 +1,18 @@
 var navbar_menu_enabled = false;
+var title_storage = '';
+
+$( document ).ready(function() {
+    // remove title from navbar links when hovering, add it back when done
+    $('.navbar-button').hover(
+        function () {
+            title_storage = $(this).attr('title');
+            $(this).attr({'title':''});
+        },
+        function () {
+            $(this).attr({'title':title_storage});
+        }
+    );
+})
 
 window.onscroll = function() {
     resizeVideobar();

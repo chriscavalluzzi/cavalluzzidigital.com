@@ -67,7 +67,7 @@ navbar-row {
     z-index: 97;
 }
 
-navbar-item {
+.navbar-item {
     display: none;
     float: left;
     text-align: left;
@@ -639,7 +639,7 @@ footer-company-text {
         --max-height: 100;
     }
 
-    navbar-item {
+    .navbar-item {
         display: block;
     }
 
@@ -670,7 +670,7 @@ footer-company-text {
         font-size: 14px;
     }
 
-    navbar-item {
+    .navbar-item {
         padding: 0 24px;
     }
 
@@ -751,7 +751,7 @@ footer-company-text {
         --max-height: 120;
     }
 
-    navbar-item {
+    .navbar-item {
         padding: 0 30px;
     }
 
