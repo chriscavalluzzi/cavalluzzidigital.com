@@ -610,11 +610,11 @@ footer-company-text {
 
 .social-link-github {
     background-image: url('/images/social/GitHub-Mark-Light-32px.png');
-    margin-left: 0;
 }
 
 .social-link-linkedin {
     background-image: url('/images/social/In-White-34@2x.png');
+    margin-left: 0;
 }
 
 /* Default values above are for small mobile screens */
