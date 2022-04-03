@@ -25,9 +25,9 @@ function content_block(
     for($i = 0; $i < count($paragraphs); $i++) {
         $paragraph_markup .= <<<HEREDOC
 
-                                    <body-content-text-paragraph class="balance-text">
-                                        $paragraphs[$i]
-                                    </body-content-text-paragraph>
+                                        <body-content-text-paragraph>
+                                            <h3 class="balance-text">$paragraphs[$i]</h3>
+                                        </body-content-text-paragraph>
         HEREDOC;
     }
 
@@ -36,14 +36,14 @@ function content_block(
     if (isset($buttons)) {
         $button_markup = <<<HEREDOC
 
-                                    <body-content-button-group class="$button_group_class">
+                                        <body-content-button-group class="$button_group_class">
 
         HEREDOC;
         for($i = 0; $i < count($buttons); $i++) {
             $button_markup .= <<<HEREDOC
-                                            <a href="/{$buttons[$i][1]}" class="body-content-button $button_class">
-                                                {$buttons[$i][0]}<span class="icon-angle-right"></span>
-                                            </a>
+                                                <a href="/{$buttons[$i][1]}" class="body-content-button $button_class">
+                                                    {$buttons[$i][0]}<span class="icon-angle-right"></span>
+                                                </a>
 
             HEREDOC;
             if($i != count($buttons) - 1) {
@@ -54,7 +54,7 @@ function content_block(
             }
         }
         $button_markup .= <<<HEREDOC
-                                    </body-content-button-group>
+                                        </body-content-button-group>
         HEREDOC;
     }
     
@@ -65,7 +65,7 @@ function content_block(
                             <body-content-text-container class="$text_classes">
                                 <div>
                                     <body-content-text-title>
-                                        $title
+                                        <h2 class="balance-text">$title</h2>
                                     </body-content-text-title>$paragraph_markup$button_markup
                                 </div>
                             </body-content-text-container>

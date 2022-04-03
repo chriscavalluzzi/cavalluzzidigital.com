@@ -37,6 +37,18 @@ a:hover {
     cursor: pointer;
 }
 
+h1 {
+    all: inherit;
+}
+
+h2 {
+    all: inherit;
+}
+
+h3 {
+    all: inherit;
+}
+
 page-container {
     display: -ms-flexbox;
     display: flex;

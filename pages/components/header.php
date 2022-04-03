@@ -107,7 +107,9 @@
                             </video>
                             <videobar-contentbox>
                                 <centered-text-container>
-                                    <videobar-title class="font-bold" id="videobar-title">$videobar_title_text</videobar-title>
+                                    <videobar-title class="font-bold" id="videobar-title">
+                                        <h1 class="balance-text">$videobar_title_text</h1>
+                                    </videobar-title>
                                     <videobar-subtitle id="videobar-subtitle">$videobar_subtitle_text</videobar-subtitle>
                                 </centered-text-container>
                             </videobar-contentbox>
